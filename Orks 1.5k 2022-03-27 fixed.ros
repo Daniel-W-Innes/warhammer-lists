@@ -1,0 +1,2365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="c68b-cf4b-6cd5-09a2" name="Orks 1.5k 2022-03-27 fixed" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 9th Edition" gameSystemRevision="210" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="82.0"/>
+    <cost name="pts" typeId="points" value="1493.0"/>
+  </costs>
+  <costLimits>
+    <costLimit name="pts" typeId="points" value="1500.0"/>
+  </costLimits>
+  <forces>
+    <force id="1f21-0313-6f1e-7025" name="Unbound Army (Faction)" entryId="44da-9aaf-181b-5ece" catalogueId="3bba-af85-a93c-6bdf" catalogueRevision="45" catalogueName="Orks">
+      <rules>
+        <rule id="fac1-6afc-e5c9-35c2" name="Ork Detachment Abilities" hidden="false">
+          <description>- &lt;CLAN&gt; units (excluding GRETCHIN units) in ORKS Detachments gain the Clan Kulturs ability.
+- Troops units (excluding GRETCHIN units) in ORKS Detachments gain the Objective Secured ability (this ability is described in the Warhammer 40,000 Core Book).</description>
+        </rule>
+        <rule id="e4bd-a449-ce9b-c2ad" name="Waaagh!" publicationId="11b5-77b9-pubN65537" page="81" hidden="false">
+          <description>If your WARLORD is a WARBOSS, then once per battle, in your Command phase, you can call a Waaagh!. To do so, that WARBOSS must be on the battlefield or embarked on a TRANSPORT that is on the battlefield. If your WARLORD is a SPEEDBOSS, then once per battle, in your COmmand phase, you can instead call a Speedwaaagh!. To do so, that SPEEDBOSS must be on the battlefield. If your WARLORD is GHAZGHKULL THRAKA, you can instead call a Great Waaagh!.
+
+To do so, GHAZGHKULL THRAKA must be on the battlefield or embarked on a TRANSPORT that is on the battlefield.
+
+A Waaagh! and Speedwaagh! each have two stages. The first stage is active from when the Waaagh! or Speedwaaagh! is called, and lasts until the start of your next Command phase. When the first stage ends, the second stage starts, and lasts until the start of your subsequent Command phase. After this point, the Waaagh! or Speedwaaagh! is no longer active, and has no further effect. Calling a Great Waaagh! is treated as calling both a Waaagh! and a Speedwaagh! at the same time. Both are active from when the Great Waaagh! is called, and each stage starts and finishes as described above.
+
+WAAAAGH!
+Stage 1: Call Da Waaagh!
+- ORKS CORE and ORKS CHARACTER units from your army are eligible to declare a charge even if they Advanced this turn.
+- Add 1 to the Attacks characteristic or ORKS models from your army.
+
+Stage 2: Get Stuck In!
+- Add 1 to the Attacks characteristic of ORKS models from your army.
+
+SPEEDWAAAGH!
+Stage 1: Da Big Race
+- ORKS models from your army do not suffer the penalty incurred to their hit rolls for firing Assault weapons in the same turn their unit Advanced. Each time an ORKS VEHICLE or ORKS BIKER model from your army shoots with a Dakka weapon, make 1 additional attack with that weapon.
+- Each time a model in an ORKS VEHICLE or ORKS BIKER unit from your army makes a ranged attack, improve the Armour Penetration charcateristic of that attack by 1.
+
+Stage 2: Give &apos;Em Sum Dakka!
+- Each time a model in an ORKS VEHICLE or ORKS BIKER unit from your army makes a ranged attack, improve the Armour Penetration charcateristic of that attack by 1.</description>
+        </rule>
+      </rules>
+      <selections>
+        <selection id="351d-9fb4-2d4a-fcbd" name="Clan Kultur" entryId="b02a-5919-f6d2-f369::fee6-89eb-b8fc-9982" number="1" type="upgrade">
+          <selections>
+            <selection id="a02b-3b53-cc48-b397" name="Goffs" entryId="b02a-5919-f6d2-f369::5602-29aa-24d5-612d" entryGroupId="b02a-5919-f6d2-f369::f30f-40ff-c530-7b48" number="1" type="upgrade">
+              <profiles>
+                <profile id="b02a-5919-f6d2-f369::acaf-5e7d-83f9-9113" name="Goffs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- Each time a model with this kultur makes a melee attack, an unmodified hit roll of 6 scores 1 additional hit.
+- Each time a model with this kultur makes a melee attack, if this model&apos;s unit makes a charge move, or perfformed a Heroic Intervention this turn, add 1 to the Strength characteristic of that attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="4395-37fa-877f-f950" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="5fde-3c76-30cf-47f2" name="Warboss in Mega Armour" entryId="de66-8bdc-ac4d-1fbc::6a49-f7e4-4c4b-3548" number="1" type="model">
+          <rules>
+            <rule id="de66-8bdc-ac4d-1fbc::63ae-4bf6-b982-3598::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="de66-8bdc-ac4d-1fbc::2e82-457c-64d9-a532::e28d-61e3-7278-3d78" name="Warboss in Mega Armour" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">7</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="de66-8bdc-ac4d-1fbc::94ca-277f-2477-84fd::181b-f158-2458-bb57" name="Grot Gunner (Warboss)" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model makes an attack with a big shoota, or a Relic that replaces this model&apos;s big shoota, add 1 to that attack&apos;s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="de66-8bdc-ac4d-1fbc::1c73-4838-7b95-1c75::0a89-4296-d779-e9db" name="Dead Tough" publicationId="11b5-77b9-pubN65537" page="87" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="de66-8bdc-ac4d-1fbc::aec8-818e-760d-d243::60c8-1099-af2c-b552" name="Warboss (Aura)" publicationId="11b5-77b9-pubN65537" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a friendly &lt;CLAN&gt; CORE or &lt;CLAN&gt; CHARACTER unit is within 6&quot; of this model, each time a model in that unit makes a melee attack, add 1 to that attack&apos;s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9f83-fe84-5c6e-7247" name="&apos;Uge Choppa" entryId="de66-8bdc-ac4d-1fbc::5fad-8560-5e15-f850" number="1" type="upgrade">
+              <profiles>
+                <profile id="de66-8bdc-ac4d-1fbc::8fb4-b6fd-55a6-c0ba::f433-d38d-52a5-85e4" name="&apos;Uge Choppa" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="bc60-1e65-9035-cc0e" name="Big Shoota" entryId="de66-8bdc-ac4d-1fbc::51ad-8f86-02e7-ffc6::6008-4737-d8e6-e63b" number="1" type="upgrade">
+              <profiles>
+                <profile id="de66-8bdc-ac4d-1fbc::51ad-8f86-02e7-ffc6::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f22c-c379-7504-72bb" name="Warlord" entryId="de66-8bdc-ac4d-1fbc::d4b1-b761-0d35-d68c::66cb-c463-e3ee-7e1d" number="1" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="d106-4800-1d6e-5e18" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+                <category id="eb55-d22c-b72e-cbfc" name="Warlord - Goffs" entryId="caa5-78bb-3e55-2aaa" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="9f3d-c9a0-c2fc-3585" name="Headwoppa&apos;s Killchoppa" entryId="de66-8bdc-ac4d-1fbc::9e16-58c8-9e23-4459::7f02-f190-2ccd-9e6f::ca75-94bd-4424-6d4c" entryGroupId="de66-8bdc-ac4d-1fbc::9e16-58c8-9e23-4459::04b0-dab2-123b-df51" number="1" type="upgrade">
+              <profiles>
+                <profile id="de66-8bdc-ac4d-1fbc::9e16-58c8-9e23-4459::7f02-f190-2ccd-9e6f::687c-071b-a655-43fe" name="Headwoppa&apos;s Killchoppa" publicationId="11b5-77b9-pubN65537" page="130" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, an unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="de66-8bdc-ac4d-1fbc::9e16-58c8-9e23-4459::7f02-f190-2ccd-9e6f::e4d4-8d11-bfcf-e5c6" name="Headwoppa&apos;s Killchoppa" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model equipped with beastchoppa, big choppa or &apos;uge choppa only.  This Relic replaces a beastchoppa, big choppa or &apos;uge choppa and has the following profile.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="115.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="9876-9235-c9dc-e947" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="c62c-c540-6813-0396" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="f998-2050-e39f-a4f2" name="Warboss" entryId="0337-1e5e-8071-a198" primary="false"/>
+            <category id="8f7c-37a3-5151-24b5" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="38e9-f157-272d-de13" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="8cf6-c348-fd75-4a56" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="95bd-dbe0-4573-1614" name="Mega Armour" entryId="0f75-56ae-9b7c-afd9" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="f296-2b5c-f8b6-7ef9" name="Weirdboy" entryId="43ed-f88f-fe67-90fd::4087-8bfc-973a-f88b" number="1" type="model">
+          <rules>
+            <rule id="43ed-f88f-fe67-90fd::6e87-0ef8-0310-5d5a::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="43ed-f88f-fe67-90fd::2876-9377-e25f-c886::3669-b9dd-a2c7-8ec5" name="Weirdboy" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="43ed-f88f-fe67-90fd::3cc6-351a-90f2-2ab1::5821-6c45-8572-7e0e" name="Smite" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="43ed-f88f-fe67-90fd::9e71-9981-e7a4-60cf::f703-7bd0-302d-7cae" name="Waaagh! Energy" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While there are 20 or more ORKS models (excluding GRETCHIN) within 12&quot; of this model, this model can attempt to manifest one additional psychic power in your Psychic phase.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="43ed-f88f-fe67-90fd::1998-e5aa-f658-ca10::769f-c6df-0030-43d9" name="Weirdboy" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+              <characteristics>
+                <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
+                <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
+                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite + 2 PotW</characteristic>
+                <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">See Waaagh! Energy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="af67-2051-0726-4a3d" name="Weirdboy Staff" entryId="43ed-f88f-fe67-90fd::3408-1c8a-d44d-d53f" number="1" type="upgrade">
+              <profiles>
+                <profile id="43ed-f88f-fe67-90fd::d030-9edc-96e9-2a73::2497-38fa-7f49-0839" name="Weirdboy Staff" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ce32-c7b9-2997-47a4" name="3. Da Jump" entryId="43ed-f88f-fe67-90fd::de2a-e364-08ff-f130::3e56-50cf-0d84-dba5" entryGroupId="43ed-f88f-fe67-90fd::de2a-e364-08ff-f130::cb1c-c83b-5adb-5663" number="1" type="upgrade">
+              <profiles>
+                <profile id="43ed-f88f-fe67-90fd::de2a-e364-08ff-f130::5662-d24e-6029-6692" name="Da Jump" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">BLESSING: Da Jump has a warp charge value of 7.  If manifested, select one friendly &lt;CLAN&gt; CORE unit that is within 12&quot; of this PSYKER.  Remove that unit from the battlefield and set them up anywhere on the battlefield more than 9&quot; from any enemy models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="158d-c0f3-1887-ed42" name="4. Fists of Gork" entryId="43ed-f88f-fe67-90fd::de2a-e364-08ff-f130::a672-5ac7-2e19-e2e8" entryGroupId="43ed-f88f-fe67-90fd::de2a-e364-08ff-f130::cb1c-c83b-5adb-5663" number="1" type="upgrade">
+              <profiles>
+                <profile id="43ed-f88f-fe67-90fd::de2a-e364-08ff-f130::dc4d-1c7d-a07f-89b2" name="Fists of Gork" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">BLESSING: Fists of Gork has a warp charge value of 6.  IF manifested, select one friendly ORKS CHARACTER model that is within 12&quot; of this PSYKER and visible to them. Until the start of your next Psychic phase, add 2 to that model&apos;s Strength and Attacks characteristic.  If the result of the Psychic test was 11 or more, add 3 to that model&apos;s Strength and Attacks characteristic instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="70.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="f678-7e75-c450-fcbd" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="a89c-8f6f-94a0-8936" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="f89c-1fce-6add-82fc" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="e67f-643c-682e-b9c1" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="0533-e665-3fbb-6bf3" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="73ab-7a09-2dc8-c326" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="4698-f620-d8d2-da93" name="Weirdboy" entryId="e480-8b6a-32d0-53cc" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="cc5b-4b9f-81d8-f461" name="Boyz" entryId="e891-db86-4983-2a05::4923-2dbf-7fd5-8828" number="1" type="unit">
+          <rules>
+            <rule id="e891-db86-4983-2a05::0f38-96d7-87ef-f672::ad32-a248-a392-3d4a" name="Mob Rule" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>While this unit is within 6&quot; of a friendly &lt;CLAN&gt; MOB unit that is not under half strength, this unit is never considered to be under half strength</description>
+            </rule>
+            <rule id="e891-db86-4983-2a05::3481-9224-485c-4662::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <selections>
+            <selection id="926c-7dd5-4d1a-1b49" name="Boss Nob" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::b816-45d4-dcde-e771" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="1" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::8a9a-a79a-b446-72df" name="Boss Nob" publicationId="11b5-77b9-pubN65537" page="91" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="b06a-30b8-88d2-22c7" name="Stikkbombs" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::cb89-babd-80bc-ebfc::6df7-0ee7-7e6d-b182" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::cb89-babd-80bc-ebfc::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="2e02-bdeb-0fd8-71cd" name="Slugga" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::0e83-3e62-a938-f56d::7944-30dc-6600-69e8::d13b-ad69-e6a2-d485" entryGroupId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::0e83-3e62-a938-f56d::2fe0-1fb8-9268-f604" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::0e83-3e62-a938-f56d::7944-30dc-6600-69e8::fa95-808b-2926-c26c::597d-56aa-73c4-88bf" name="Slugga" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="773e-b091-a88c-14e7" name="Big Choppa" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::9dc2-33b4-3026-0d81::8e81-bc80-3cbc-1627::0470-1b47-489b-14c9" entryGroupId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::9dc2-33b4-3026-0d81::d4bf-a2d0-e994-1474" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::9dc2-33b4-3026-0d81::8e81-bc80-3cbc-1627::4f15-a39a-5651-d17a" name="Big Choppa" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                <cost name="pts" typeId="points" value="9.0"/>
+              </costs>
+            </selection>
+            <selection id="a576-ce36-7d2f-e229" name="Ork Boy W/ Shoota" entryId="e891-db86-4983-2a05::a99b-eb35-3148-7e79" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="17" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::f4e1-9a43-e678-113d::4305-daf8-8988-6189" name="Ork Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="62fb-c4f0-7949-7100" name="Stikkbombs" entryId="e891-db86-4983-2a05::b49f-a2b0-8d81-2f06::6df7-0ee7-7e6d-b182" number="17" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::b49f-a2b0-8d81-2f06::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="b799-58b5-21fb-5d11" name="Shoota" entryId="e891-db86-4983-2a05::638d-22c9-d833-20a4::e704-4044-fa55-f75e" number="17" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::638d-22c9-d833-20a4::9f26-75aa-038b-3685::5a2b-0c64-8aa8-2f3e" name="Shoota" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 3/2</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="153.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b579-0388-98c1-a996" name="Ork Boy w/ &apos;Eavy Weapon" entryId="e891-db86-4983-2a05::2aa4-c5ae-56f1-9fd0" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="1" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::eadf-491c-9504-dc77::4305-daf8-8988-6189" name="Ork Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="a8c9-bda7-e647-469e" name="Stikkbombs" entryId="e891-db86-4983-2a05::8f9b-ac65-0bfb-31be::6df7-0ee7-7e6d-b182" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::8f9b-ac65-0bfb-31be::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="c6b0-7b29-88b5-a3c4" name="Big Shoota" entryId="e891-db86-4983-2a05::3740-9653-aa95-eb84::fedd-c558-b6a5-6ac4::6008-4737-d8e6-e63b" entryGroupId="e891-db86-4983-2a05::3740-9653-aa95-eb84::41a6-ce08-1467-5bf5" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::3740-9653-aa95-eb84::fedd-c558-b6a5-6ac4::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0cbb-5a02-4f49-0e12" name="Ork Boy w/ &apos;Eavy Weapon" entryId="e891-db86-4983-2a05::2aa4-c5ae-56f1-9fd0" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="1" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::eadf-491c-9504-dc77::4305-daf8-8988-6189" name="Ork Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="28bf-6899-1765-b19f" name="Stikkbombs" entryId="e891-db86-4983-2a05::8f9b-ac65-0bfb-31be::6df7-0ee7-7e6d-b182" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::8f9b-ac65-0bfb-31be::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="6a96-1923-b32b-c4cd" name="Big Shoota" entryId="e891-db86-4983-2a05::3740-9653-aa95-eb84::fedd-c558-b6a5-6ac4::6008-4737-d8e6-e63b" entryGroupId="e891-db86-4983-2a05::3740-9653-aa95-eb84::41a6-ce08-1467-5bf5" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::3740-9653-aa95-eb84::fedd-c558-b6a5-6ac4::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="4723-5fd9-ccd7-b380" name="Boyz" entryId="1684-73bb-15f2-2dd3" primary="false"/>
+            <category id="04fa-e5ea-bb29-105f" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="fe02-1fa0-eecd-cd13" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="cf03-b263-a218-488c" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="a435-1250-c674-5cbf" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="4178-2509-cf45-3534" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="2659-51d7-a4e9-c595" name="Mob" entryId="75eb-5c49-263d-dd9c" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="69b7-8547-39ca-36c1" name="Boomdakka Snazzwagons" entryId="82f0-f4fb-8c89-59ea::f81f-4af6-bf20-9655" number="1" type="unit">
+          <rules>
+            <rule id="82f0-f4fb-8c89-59ea::f58a-d52e-c4b2-64f1::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="82f0-f4fb-8c89-59ea::1a1d-b784-aaa1-8b59::aea0-875f-f740-7682" name="Riding Shotgun" publicationId="11b5-77b9-pubN65537" page="105" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit shoots, it can shoot with Grenade and Pistol weapons ina ddition to any other weapon types.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82f0-f4fb-8c89-59ea::12c4-70c7-c79d-bfd4::d2ae-8423-5c96-880a" name="Billowing Fumes" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is made against this unit, subtract 1 from that attack&apos;s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82f0-f4fb-8c89-59ea::0fed-acd6-fc61-9a41::89de-86df-6ff8-d59f" name="Grot Gunner (Boomdakka)" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit makes an attack with a grot blasta or big shoota, add 1 to that attack&apos;s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82f0-f4fb-8c89-59ea::bcd3-d8f5-e39c-d64f::2f33-34ac-7209-6d7c" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 3&quot; suffers D3 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82f0-f4fb-8c89-59ea::1b95-6316-7b9f-45b0::93c5-1d57-3331-f167" name="Ramshackle" publicationId="11b5-77b9-pubN65537" page="113" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an attack is allocated to this model, unless that attack has a Strength characteristic of 8 or more, subtract 1 from the Damage characteristic of that attack (to a minimum of 1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7eea-c491-5841-8173" name="Boomdakka Snazzwagon" entryId="82f0-f4fb-8c89-59ea::8aff-96b2-e84f-1f11" entryGroupId="82f0-f4fb-8c89-59ea::a04d-0211-e0b6-677a" number="1" type="model">
+              <profiles>
+                <profile id="82f0-f4fb-8c89-59ea::0691-e8cf-ad89-ebef::e717-4a26-d013-82db" name="Boomdakka Snazzwagon" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="b251-34b1-2c89-990c" name="Mek Speshul" entryId="82f0-f4fb-8c89-59ea::933f-08a5-bde3-36f7" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::cf6f-fb2d-f998-dec2::a899-f1f9-40e9-02cb" name="Mek Speshul" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 14/10</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="097b-ff6f-d986-4c10" name="Burna Bottles" entryId="82f0-f4fb-8c89-59ea::ab2f-7701-4979-aeef" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::ab74-638f-4e6c-67e6::30fc-8839-20c0-a3e5" name="Burna Bottles" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 2D3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an attack is made with this weapon, the target does not receive the benefits of cover against that attack.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="7fbf-eed9-d4ca-e406" name="Big Shoota" entryId="82f0-f4fb-8c89-59ea::1a27-3e48-49ce-7036::6008-4737-d8e6-e63b" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::1a27-3e48-49ce-7036::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="0bee-942d-ee16-34d7" name="Grot Blasta" entryId="82f0-f4fb-8c89-59ea::e168-cc28-bbdd-cdca::3aa4-aff7-db5e-4b46" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::e168-cc28-bbdd-cdca::8d97-5f06-f4c8-1809" name="Grot Blaster" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="90.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6d42-3866-f970-2a72" name="Boomdakka Snazzwagon" entryId="82f0-f4fb-8c89-59ea::8aff-96b2-e84f-1f11" entryGroupId="82f0-f4fb-8c89-59ea::a04d-0211-e0b6-677a" number="1" type="model">
+              <profiles>
+                <profile id="82f0-f4fb-8c89-59ea::0691-e8cf-ad89-ebef::e717-4a26-d013-82db" name="Boomdakka Snazzwagon" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">8</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="c1a9-e824-4414-4da0" name="Mek Speshul" entryId="82f0-f4fb-8c89-59ea::933f-08a5-bde3-36f7" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::cf6f-fb2d-f998-dec2::a899-f1f9-40e9-02cb" name="Mek Speshul" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 14/10</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="1ca3-d5b1-8227-1502" name="Burna Bottles" entryId="82f0-f4fb-8c89-59ea::ab2f-7701-4979-aeef" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::ab74-638f-4e6c-67e6::30fc-8839-20c0-a3e5" name="Burna Bottles" publicationId="11b5-77b9-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 2D3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an attack is made with this weapon, the target does not receive the benefits of cover against that attack.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="1d65-5b77-a845-c599" name="Big Shoota" entryId="82f0-f4fb-8c89-59ea::1a27-3e48-49ce-7036::6008-4737-d8e6-e63b" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::1a27-3e48-49ce-7036::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="03be-2183-c610-6866" name="Grot Blasta" entryId="82f0-f4fb-8c89-59ea::e168-cc28-bbdd-cdca::3aa4-aff7-db5e-4b46" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82f0-f4fb-8c89-59ea::e168-cc28-bbdd-cdca::8d97-5f06-f4c8-1809" name="Grot Blaster" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="90.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="5bb3-051d-c922-5776" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="16c0-f7e4-2afd-7cdc" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="6923-14b5-31e1-fa83" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="ede0-9994-2e1f-f55c" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="aa29-f1bd-ed06-d0ea" name="Speed Freeks" entryId="258d-e4cb-6f35-fe20" primary="false"/>
+            <category id="f4a7-9962-781d-e3ab" name="Boomdakka Snazzwagon" entryId="9b2e-bba8-205c-d3a2" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="bea6-d790-92d0-4751" name="Mek Gunz" entryId="af13-ff57-e87c-8342::8383-113c-08bc-3f40" number="1" type="unit">
+          <profiles>
+            <profile id="af13-ff57-e87c-8342::74ce-2f43-2b8d-9081::93c5-1d57-3331-f167" name="Ramshackle" publicationId="11b5-77b9-pubN65537" page="113" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an attack is allocated to this model, unless that attack has a Strength characteristic of 8 or more, subtract 1 from the Damage characteristic of that attack (to a minimum of 1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="15d3-5a3a-368e-016c" name="Mek Gun" entryId="af13-ff57-e87c-8342::3b77-09ba-b680-0c65" number="1" type="model">
+              <profiles>
+                <profile id="af13-ff57-e87c-8342::8ffc-2450-36b4-6151::1b8a-9612-e88d-5497" name="Artillery and Crew" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Eachj Mek Gun and its crew are treated as a single model for all rules purposes (crew models must remain within 1&quot; of their Mek Gun model). This means that the crew models cannot be targeted or attacked separately and that visibility and all ranges are measured to and from the Mek Gun&apos;s model, not the crew models. This unit cannot advance, is never eligible to charge or Heroically Intervene, and cannot make pile-in or consolidation moves.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="af13-ff57-e87c-8342::4548-5581-1507-73fe::ad62-b56f-0855-87dc" name="Mek Gun" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">3&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">6</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">4</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="95cf-0cc6-34bc-9fdd" name="Kustom Mega Kannon" entryId="af13-ff57-e87c-8342::78d9-10dc-f0fd-8f11::b37c-86e3-6303-3825" entryGroupId="af13-ff57-e87c-8342::80c8-34b2-1bc5-1124" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="af13-ff57-e87c-8342::78d9-10dc-f0fd-8f11::1ebe-d36d-cef7-ab0e::0a2f-f8b2-3d4c-e743" name="Kustom Mega-Kannon" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="9e57-8953-d5bd-afb9" name="Mek Gun" entryId="af13-ff57-e87c-8342::3b77-09ba-b680-0c65" number="1" type="model">
+              <profiles>
+                <profile id="af13-ff57-e87c-8342::8ffc-2450-36b4-6151::1b8a-9612-e88d-5497" name="Artillery and Crew" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Eachj Mek Gun and its crew are treated as a single model for all rules purposes (crew models must remain within 1&quot; of their Mek Gun model). This means that the crew models cannot be targeted or attacked separately and that visibility and all ranges are measured to and from the Mek Gun&apos;s model, not the crew models. This unit cannot advance, is never eligible to charge or Heroically Intervene, and cannot make pile-in or consolidation moves.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="af13-ff57-e87c-8342::4548-5581-1507-73fe::ad62-b56f-0855-87dc" name="Mek Gun" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">3&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">6</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">4</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="d292-518b-e557-44c2" name="Kustom Mega Kannon" entryId="af13-ff57-e87c-8342::78d9-10dc-f0fd-8f11::b37c-86e3-6303-3825" entryGroupId="af13-ff57-e87c-8342::80c8-34b2-1bc5-1124" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="af13-ff57-e87c-8342::78d9-10dc-f0fd-8f11::1ebe-d36d-cef7-ab0e::0a2f-f8b2-3d4c-e743" name="Kustom Mega-Kannon" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="205b-3965-fdc1-ed7a" name="Mek Gun" entryId="af13-ff57-e87c-8342::3b77-09ba-b680-0c65" number="1" type="model">
+              <profiles>
+                <profile id="af13-ff57-e87c-8342::8ffc-2450-36b4-6151::1b8a-9612-e88d-5497" name="Artillery and Crew" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Eachj Mek Gun and its crew are treated as a single model for all rules purposes (crew models must remain within 1&quot; of their Mek Gun model). This means that the crew models cannot be targeted or attacked separately and that visibility and all ranges are measured to and from the Mek Gun&apos;s model, not the crew models. This unit cannot advance, is never eligible to charge or Heroically Intervene, and cannot make pile-in or consolidation moves.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="af13-ff57-e87c-8342::4548-5581-1507-73fe::ad62-b56f-0855-87dc" name="Mek Gun" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">3&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">6</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">4</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="df49-1b05-07cd-6468" name="Kustom Mega Kannon" entryId="af13-ff57-e87c-8342::78d9-10dc-f0fd-8f11::b37c-86e3-6303-3825" entryGroupId="af13-ff57-e87c-8342::80c8-34b2-1bc5-1124" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="af13-ff57-e87c-8342::78d9-10dc-f0fd-8f11::1ebe-d36d-cef7-ab0e::0a2f-f8b2-3d4c-e743" name="Kustom Mega-Kannon" publicationId="11b5-77b9-pubN65537" page="109" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="10fc-6fd2-9e12-12a4" name="Artillery" entryId="99f3-bf12-63e0-0b7c" primary="false"/>
+            <category id="9585-f9e7-6141-d8cc" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="9970-e547-a6f8-81b1" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="e71c-5557-e4b8-eb6e" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="fcc4-32be-3147-ea51" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="e1e5-7ec5-3731-0b8b" name="Mek Gunz" entryId="bd92-4b9f-3f84-70bf" primary="false"/>
+            <category id="c4dd-020d-7946-8b18" name="Gretchin" entryId="0b2c-1505-90c2-24ed" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="3b99-1110-6546-7584" name="Blitza-bommer" entryId="24a3-a4a4-34f7-ee58::73ba-a086-3038-c166" number="1" type="model">
+          <rules>
+            <rule id="24a3-a4a4-34f7-ee58::5b0b-aea5-becf-a6a6::15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
+              <description>This model cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the Fight phase by units that can FLY.</description>
+            </rule>
+            <rule id="24a3-a4a4-34f7-ee58::cebb-21df-25c7-284f::9caa-ff00-a5bd-5f04" name="Hard to Hit" hidden="false">
+              <description>Your opponent must subtract 1 from hit rolls for attacks that target this model in the Shooting phase.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="24a3-a4a4-34f7-ee58::74dd-d089-7250-9367" name="Blitza-bommer [1] (7+ Wounds)" publicationId="11b5-77b9-pubN65537" page="115" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">20-60&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">12</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="24a3-a4a4-34f7-ee58::ae35-a4f1-4f1b-71bc" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model makes an attack with a big shoota, add 1 to thata attack&apos;s hit roll. </characteristic>
+              </characteristics>
+            </profile>
+            <profile id="24a3-a4a4-34f7-ee58::fc33-f2e6-ec27-2c81" name="Blitza-bommer [2] (4-6 Wounds)" publicationId="11b5-77b9-pubN65537" page="115" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">20-40&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="24a3-a4a4-34f7-ee58::dc2e-a852-6165-b9af" name="Blitza-bommer [3] (1-3 Wounds)" publicationId="11b5-77b9-pubN65537" page="115" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">20-30&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">6+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="24a3-a4a4-34f7-ee58::565d-224f-9be4-d5a4::93c5-1d57-3331-f167" name="Ramshackle" publicationId="11b5-77b9-pubN65537" page="113" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an attack is allocated to this model, unless that attack has a Strength characteristic of 8 or more, subtract 1 from the Damage characteristic of that attack (to a minimum of 1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="24a3-a4a4-34f7-ee58::df66-e19e-0ecd-8db5::56f0-3891-61a7-c830" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play.  On a 6, it explodes, and each unit within 6&quot; suffers D3 moral wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="2d47-afa6-65fb-c48a" name="Boom Bomb" entryId="24a3-a4a4-34f7-ee58::639e-17ea-57ae-3d8d" number="2" type="upgrade">
+              <profiles>
+                <profile id="24a3-a4a4-34f7-ee58::a712-9324-7ce1-94a9" name="Boom Bomb" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, if the bearer has any boom bombs remaining, it can drop one of them.  In your Movement phase, after the bearer makes a Normal Move or Advances, you can select one point on the battlefield the bearer moved across this phase.  Roll one D6 for each unit within 6&quot; of that point, subtracting 1 if that unit is a CHARACTER (excluding VEHICLE or MONSTER units): on a 4+ that unit suffers D3 mortal wounds.  On a 6, that unit suffers D6 mortal wounds instead.  Each boom bomb can only be dropped once per battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c200-34dc-f405-9b9b" name="Supa Shoota" entryId="24a3-a4a4-34f7-ee58::bb10-907f-c8eb-daa0::18ea-ccd9-37ee-7cc6" number="2" type="upgrade">
+              <profiles>
+                <profile id="24a3-a4a4-34f7-ee58::bb10-907f-c8eb-daa0::881c-ee76-e8e7-f907::979a-3da3-d6b8-6243" name="Supa Shoota" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 6/4</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3cab-0094-9ac6-d891" name="Big Shoota" entryId="24a3-a4a4-34f7-ee58::4f2f-0a11-3a29-86f4::6008-4737-d8e6-e63b" number="1" type="upgrade">
+              <profiles>
+                <profile id="24a3-a4a4-34f7-ee58::4f2f-0a11-3a29-86f4::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="150.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="d845-1b92-182d-a73e" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="0c89-d67b-8669-5078" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="76dc-349b-0e6a-7b09" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="8cb1-0d79-b8da-f67b" name="Flyer" entryId="e888-1504-aa61-95ff" primary="true"/>
+            <category id="c8ff-5802-8063-c2ec" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="f09b-dc62-1802-f2c0" name="Blitza-Bommer" entryId="854c-35a6-ff2b-b726" primary="false"/>
+            <category id="7bba-65b1-21cf-84fa" name="Aircraft" entryId="d569-3d56-cd24-6a31" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="811e-d2c9-764c-1601" name="Trukk" entryId="c160-6f07-0220-2da6::7945-13e5-5ad9-1667" number="1" type="model">
+          <rules>
+            <rule id="c160-6f07-0220-2da6::f9a6-0ab2-610a-7f13::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="c160-6f07-0220-2da6::07e3-6c31-9e38-a449::5bb3-3808-c5fb-7911" name="Trukk" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+              <characteristics>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 12 FLASH GITZ, SPECIALIST MOB INFANTRY or &lt;CLAN&gt; INFANTRY models.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c160-6f07-0220-2da6::4fe9-b160-fbe1-72ff::9729-a8eb-6dc5-7e42" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this transport is destroyed, roll one D6 before any embarked models disembark and before removing it from play.  On a 6, it explodes, and each unit within 6&quot; suffers D3 moral wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c160-6f07-0220-2da6::7fcc-0ffa-8f24-139d::93c5-1d57-3331-f167" name="Ramshackle" publicationId="11b5-77b9-pubN65537" page="113" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an attack is allocated to this model, unless that attack has a Strength characteristic of 8 or more, subtract 1 from the Damage characteristic of that attack (to a minimum of 1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c160-6f07-0220-2da6::c035-284d-6d73-5b4f::13a6-1dff-4203-4e4b" name="Trukk [1] (6-10+ Wounds Remaining)" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c160-6f07-0220-2da6::d561-181b-17b2-4065::6372-c334-7a2d-3270" name="Trukk [2] (3-5 Wounds Remaining)" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c160-6f07-0220-2da6::9044-c872-e4a1-bc55::35da-1054-4a96-f506" name="Trukk [3] (1-2 Wounds Remaining)" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c160-6f07-0220-2da6::44e6-2191-8334-1c90::c284-5882-8566-317a" name="Open-Topped" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, units embarked within this transport can be selected to shoot with; measure distances and draw line of sight from any point on this transport when doing so. If this transport made a Normal Move, Advanced or Fell Back this turn, embarked units are considered to have done the same. While this transport is within Engagement Range of any enemy units, embarked units cannot shoot, excpet with Pistols.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8c0e-d906-de64-1552" name="Big Shoota" entryId="c160-6f07-0220-2da6::8c6a-676c-233c-a279::6008-4737-d8e6-e63b" number="1" type="upgrade">
+              <profiles>
+                <profile id="c160-6f07-0220-2da6::8c6a-676c-233c-a279::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="70.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="cd9e-acf3-1a43-8004" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="dfc2-89e5-7f98-5956" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="04e7-f773-b260-43bd" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
+            <category id="f923-3a67-8bb9-e6c2" name="Trukk" entryId="9c62-0ec7-cdb2-1e09" primary="false"/>
+            <category id="c836-ded4-cb38-cd9b" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="41b3-4449-eaf1-4629" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7e1e-ef1f-9349-dcd1" name="Boyz" entryId="e891-db86-4983-2a05::4923-2dbf-7fd5-8828" number="1" type="unit">
+          <rules>
+            <rule id="e891-db86-4983-2a05::0f38-96d7-87ef-f672::ad32-a248-a392-3d4a" name="Mob Rule" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>While this unit is within 6&quot; of a friendly &lt;CLAN&gt; MOB unit that is not under half strength, this unit is never considered to be under half strength</description>
+            </rule>
+            <rule id="e891-db86-4983-2a05::3481-9224-485c-4662::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <selections>
+            <selection id="c32b-71ea-4e2f-f39b" name="Boss Nob" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::b816-45d4-dcde-e771" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="1" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::8a9a-a79a-b446-72df" name="Boss Nob" publicationId="11b5-77b9-pubN65537" page="91" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="8da2-29a3-322b-87b6" name="Stikkbombs" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::cb89-babd-80bc-ebfc::6df7-0ee7-7e6d-b182" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::cb89-babd-80bc-ebfc::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="d356-5902-18b4-9da7" name="Slugga" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::9dc2-33b4-3026-0d81::70d9-829c-4696-ddb8::d13b-ad69-e6a2-d485" entryGroupId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::9dc2-33b4-3026-0d81::d4bf-a2d0-e994-1474" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::9dc2-33b4-3026-0d81::70d9-829c-4696-ddb8::fa95-808b-2926-c26c::597d-56aa-73c4-88bf" name="Slugga" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="235c-1ddc-88f9-c033" name="Big Choppa" entryId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::0e83-3e62-a938-f56d::e322-76ab-827b-a2da::0470-1b47-489b-14c9" entryGroupId="e891-db86-4983-2a05::fffc-9253-282a-3f0f::0e83-3e62-a938-f56d::2fe0-1fb8-9268-f604" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::fffc-9253-282a-3f0f::0e83-3e62-a938-f56d::e322-76ab-827b-a2da::4f15-a39a-5651-d17a" name="Big Choppa" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                <cost name="pts" typeId="points" value="9.0"/>
+              </costs>
+            </selection>
+            <selection id="953a-960e-acc3-08c5" name="Ork Boy w/ Slugga &amp; Choppa" entryId="e891-db86-4983-2a05::c265-7969-10c0-0d77" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="10" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::c638-0ed4-f267-41d3::4305-daf8-8988-6189" name="Ork Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="5048-737c-1c57-3a76" name="Choppa" entryId="e891-db86-4983-2a05::532f-c32a-59b4-cebb::c025-0c89-05db-fccb" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::532f-c32a-59b4-cebb::7dbb-b3d1-2b94-d3b4::cc0c-8f69-bf5f-ef51" name="Choppa" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="09da-615c-38f3-4107" name="Slugga" entryId="e891-db86-4983-2a05::ff09-e337-e522-0373::1b13-84df-f255-b206" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::ff09-e337-e522-0373::e303-5e44-7639-b9ac::597d-56aa-73c4-88bf" name="Slugga" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="fd66-bfea-8394-abb8" name="Stikkbombs" entryId="e891-db86-4983-2a05::a03e-ff60-e497-de17::6df7-0ee7-7e6d-b182" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::a03e-ff60-e497-de17::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="90.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f9a1-0aa2-f446-6684" name="Trukk Boyz" entryId="e891-db86-4983-2a05::84a6-a3b5-1a07-3e47::6c81-fd83-7967-cc44" entryGroupId="e891-db86-4983-2a05::84a6-a3b5-1a07-3e47::c99c-6f81-ada0-9caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::84a6-a3b5-1a07-3e47::46b7-168e-982d-54db::e373-609e-d36c-9259" name="Trukk Boyz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BOYZ, NOB or WARBOSS units only. The selected unit gains the TRUKK BOYZ keyword and the following ability:
+
+Trukk Boyz: A TRUKK BOYZ unit can disembark from a TRUKK even if that TRUKK has made a Normal Move this phase. While any TRUKK BOYZ units are embarked upon a TRUKK, each time that TRUKK model makes a ranged attack, add 1 to that attack&apos;s hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="f4b2-6030-fec6-9fe3" name="Specialist Mob" entryId="cb70-eef7-a269-1734" primary="false"/>
+                <category id="a184-193c-6e4b-a2d4" name="Faction: Trukk Boyz" entryId="fb70-63b7-0780-acc7" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="97bd-a861-d2ff-15d5" name="Ork Boy w/ &apos;Eavy Weapon" entryId="e891-db86-4983-2a05::2aa4-c5ae-56f1-9fd0" entryGroupId="e891-db86-4983-2a05::0f35-4e09-6673-45b4" number="1" type="model">
+              <profiles>
+                <profile id="e891-db86-4983-2a05::eadf-491c-9504-dc77::4305-daf8-8988-6189" name="Ork Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="1064-51ab-6653-1154" name="Stikkbombs" entryId="e891-db86-4983-2a05::8f9b-ac65-0bfb-31be::6df7-0ee7-7e6d-b182" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::8f9b-ac65-0bfb-31be::acef-c0cb-ae9c-4668::6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="129" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="2293-0089-52e2-d071" name="Big Shoota" entryId="e891-db86-4983-2a05::3740-9653-aa95-eb84::fedd-c558-b6a5-6ac4::6008-4737-d8e6-e63b" entryGroupId="e891-db86-4983-2a05::3740-9653-aa95-eb84::41a6-ce08-1467-5bf5" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e891-db86-4983-2a05::3740-9653-aa95-eb84::fedd-c558-b6a5-6ac4::84ac-fb93-378c-6567::674c-6501-898c-16d6" name="Big Shoota" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="9.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="f936-dc73-41ab-870f" name="Boyz" entryId="1684-73bb-15f2-2dd3" primary="false"/>
+            <category id="86d1-94e3-92d3-b823" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="07bb-2016-7096-c61f" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="f53d-63b2-1a0e-410e" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="e3bc-d23e-2958-0470" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="da49-0e3c-cdfd-08bd" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="39c0-61a0-1d86-f930" name="Mob" entryId="75eb-5c49-263d-dd9c" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="f89d-86fb-5178-a9c6" name="Runtherd" entryId="14d9-a588-df5b-62ac::4a86-9031-67e9-cb27" number="1" type="model">
+          <rules>
+            <rule id="14d9-a588-df5b-62ac::9c22-e994-a1f4-f848::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="14d9-a588-df5b-62ac::aaf0-9c1e-299e-cf87::47d0-f0f8-0fd6-554e" name="Runtherd" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="14d9-a588-df5b-62ac::5d57-1e8c-d046-f323::bf44-f0b1-e2e1-2ebd" name="Runtherd (Restriction)" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you must include at least one GRETCHIN INFANTRY unit in a Detachment for each RUNTHERD unit in that Detachment. RUNTHERD units do not take up slots in a Detachment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="89da-e04f-82d8-047c" name="Slugga" entryId="14d9-a588-df5b-62ac::2da7-e98d-c616-73af::d13b-ad69-e6a2-d485" number="1" type="upgrade">
+              <profiles>
+                <profile id="14d9-a588-df5b-62ac::2da7-e98d-c616-73af::fa95-808b-2926-c26c::597d-56aa-73c4-88bf" name="Slugga" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d216-a303-f8a8-cb28" name="Grabba Stikk" entryId="14d9-a588-df5b-62ac::e9b7-1d44-15d4-8dc5" entryGroupId="14d9-a588-df5b-62ac::7dfa-8517-487f-50ec" number="1" type="upgrade">
+              <profiles>
+                <profile id="14d9-a588-df5b-62ac::0797-4b68-545d-986a::2186-91a5-5eb1-48ef" name="Grabba Stikk" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a4a4-f9dd-81cd-6c31" name="Squig Hound" entryId="14d9-a588-df5b-62ac::5c9f-95eb-1ec7-0af2" entryGroupId="14d9-a588-df5b-62ac::7944-038a-4666-d411" number="1" type="upgrade">
+              <profiles>
+                <profile id="14d9-a588-df5b-62ac::4d0f-752b-c743-0ac4::c9f7-7787-5db5-7911" name="Squig Hound" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer gains the following ability: &apos;Squig Hound (Aura): While a friendly GRETCHIN unit is within 3&quot; of the bearer, models in that unit ignore modifiers to Combat Attrition tests.&apos;</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="f363-6d03-4bcb-0efa" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="0e5e-1af3-18dd-879c" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="17ef-f22c-4066-1e50" name="Runtherd" entryId="4c69-d276-dec1-ae44" primary="false"/>
+            <category id="7d69-11e7-49dc-5eb1" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="c82b-c7a8-daab-4513" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="b422-eadd-f74f-3602" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="33be-f03b-89ea-382f" name="Nob on Smasha Squig" entryId="1c20-455f-fe96-0a2a::8ad2-08e9-ce5b-cfc0" number="1" type="model">
+          <rules>
+            <rule id="1c20-455f-fe96-0a2a::6b7d-f5e7-e4dc-1552::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="1c20-455f-fe96-0a2a::a41e-d275-880c-0449::e809-34e4-6eff-7ff0" name="Smasha &apos;Ead" publicationId="11b5-77b9-pubN65537" page="105" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model finishes a charge move or Heroic Intervention move, select one enemy unit that is within Engagement Range of this model and roll five D6; for each result of 4+, that enemy unit suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1c20-455f-fe96-0a2a::05df-f3c2-a060-b323::e17c-6ddd-df1c-5456" name="Squigboss" publicationId="11b5-77b9-pubN65537" page="105" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">For each &lt;CLAN&gt; SQUIGHOG BOYZ unit included in a Detachment, up to two &lt;CLAN&gt; NOB ON SMASHA SQUIG units can be included in that Detachment without taking up any Battlefield Role slots.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1c20-455f-fe96-0a2a::382a-f36e-847c-3605::bdaf-b64d-6560-4498" name="Beast Snagga" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- Each time a model with this ability makes an attack that targets a VEHICLE or MONSTER, add 1 to that attack&apos;s hit roll.
+- Every model in this unit has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1c20-455f-fe96-0a2a::ecd6-686c-4bfd-4022::0bed-de6f-ab94-235c" name="Nob on Smasha Squig" publicationId="11b5-77b9-pubN65537" page="105" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9716-821c-31cb-151c" name="Slugga" entryId="1c20-455f-fe96-0a2a::8d0f-02fb-f9f0-3d4d::d13b-ad69-e6a2-d485" number="1" type="upgrade">
+              <profiles>
+                <profile id="1c20-455f-fe96-0a2a::8d0f-02fb-f9f0-3d4d::fa95-808b-2926-c26c::597d-56aa-73c4-88bf" name="Slugga" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0af2-490d-4497-fcc9" name="Big Choppa" entryId="1c20-455f-fe96-0a2a::2713-6dfb-d64f-4586::0470-1b47-489b-14c9" number="1" type="upgrade">
+              <profiles>
+                <profile id="1c20-455f-fe96-0a2a::2713-6dfb-d64f-4586::4f15-a39a-5651-d17a" name="Big Choppa" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4cad-cdc4-4de2-a7bc" name="Smasha Squig Jaws" entryId="1c20-455f-fe96-0a2a::0f75-d714-1c72-021a::61fa-36bc-7454-944d" number="1" type="upgrade">
+              <profiles>
+                <profile id="1c20-455f-fe96-0a2a::0f75-d714-1c72-021a::a18b-b29d-e254-3f0e::8f75-c8e1-54e5-dbf8" name="Smasha Squig Jaws" publicationId="11b5-77b9-pubN65537" page="105" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it makes 2 additional attacks with this weapon and no more than 2 attacks can be made with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="77d8-39b1-56df-ddae" name="Cavalry" entryId="ad01-caec-17d9-cb8d" primary="false"/>
+            <category id="cb90-60cf-b1a4-70ce" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="29f8-46b8-6f9d-35ef" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="ea62-9834-3b5c-4796" name="Beast Snagga" entryId="2dab-44c2-aa8b-df46" primary="false"/>
+            <category id="991d-7714-307c-702b" name="Squig" entryId="a528-ad36-9ba5-c186" primary="false"/>
+            <category id="dff9-eccb-d7f0-97bc" name="Nob" entryId="1a27-7e45-b5e8-b720" primary="false"/>
+            <category id="560e-5018-1f00-ec6c" name="Nob on Smasha Squig" entryId="18f3-5211-314f-82ce" primary="false"/>
+            <category id="3c8a-ed8b-6ceb-2001" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="fcbf-cf62-eebb-631c" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2db1-11c2-b58a-fa01" name="Squighog Boyz" entryId="084e-e7ea-5e40-8e84::acad-91ba-c465-a145" number="1" type="unit">
+          <rules>
+            <rule id="084e-e7ea-5e40-8e84::d318-ea97-8d1d-7f16::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+            <rule id="084e-e7ea-5e40-8e84::603f-d58d-0afe-6eca::ad32-a248-a392-3d4a" name="Mob Rule" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>While this unit is within 6&quot; of a friendly &lt;CLAN&gt; MOB unit that is not under half strength, this unit is never considered to be under half strength</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="084e-e7ea-5e40-8e84::9bdf-4e02-14fd-bf31::bdaf-b64d-6560-4498" name="Beast Snagga" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- Each time a model with this ability makes an attack that targets a VEHICLE or MONSTER, add 1 to that attack&apos;s hit roll.
+- Every model in this unit has a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6c69-2ea3-97ad-c790" name="Squighog Boy" entryId="084e-e7ea-5e40-8e84::8a2b-56d6-4c9a-9c21" number="3" type="model">
+              <profiles>
+                <profile id="084e-e7ea-5e40-8e84::c0a7-cf7d-f349-78b2::f534-3472-cc37-e62a" name="Squighog Boy" publicationId="11b5-77b9-pubN65537" page="107" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="521c-008d-743a-81a3" name="Saddlegit Weapons" entryId="084e-e7ea-5e40-8e84::3461-1566-564f-8a0e::23db-9d89-484d-1ce4" number="3" type="upgrade">
+                  <profiles>
+                    <profile id="084e-e7ea-5e40-8e84::3461-1566-564f-8a0e::efff-340f-890d-7b45::97aa-dfc2-91cd-4867" name="Saddlegit Weapons (Shooting)" publicationId="11b5-77b9-pubN65537" page="107" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="084e-e7ea-5e40-8e84::3461-1566-564f-8a0e::0112-6d39-e5e7-a306::9523-8e15-b512-6545" name="Saddlegit Weapons (Melee)" publicationId="11b5-77b9-pubN65537" page="107" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it makes 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="2b1d-f7a6-f85f-d16b" name="Squighog Jaws" entryId="084e-e7ea-5e40-8e84::946a-b660-484d-2f7b::0660-c75f-fc9c-4387" number="3" type="upgrade">
+                  <profiles>
+                    <profile id="084e-e7ea-5e40-8e84::946a-b660-484d-2f7b::8841-6828-3e73-e336" name="Squighog Jaws" publicationId="11b5-77b9-pubN65537" page="107" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it makes 2 additional attacks with this weapon and no more than 2 attacks can be made with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="dee3-7ba6-ddff-a2b8" name="Stikka" entryId="084e-e7ea-5e40-8e84::52d0-eb48-81ad-cb54::361b-c134-6fce-cfb2" number="3" type="upgrade">
+                  <profiles>
+                    <profile id="084e-e7ea-5e40-8e84::52d0-eb48-81ad-cb54::dc7f-0d41-a0f7-3786::d8b1-46dc-cb44-b844" name="Stikka (Melee)" publicationId="11b5-77b9-pubN65537" page="107" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="084e-e7ea-5e40-8e84::52d0-eb48-81ad-cb54::7f5a-e142-db66-00ce::0231-20d3-7ce3-9c56" name="Stikka (Shooting)" publicationId="11b5-77b9-pubN65537" page="107" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Strength characteristic of +1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="75.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6c36-e1ce-7ab3-3217" name="Bomb Squig" entryId="084e-e7ea-5e40-8e84::1a08-0a21-0985-e186::5268-1807-2fb6-ac2d" number="1" type="upgrade">
+              <profiles>
+                <profile id="084e-e7ea-5e40-8e84::1a08-0a21-0985-e186::d1eb-d694-056c-c812::1d01-85a5-7bf2-1e42" name="Bomb Squig" publicationId="11b5-77b9-pubN65537" page="100" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, when a unit with a bomb squig is selected to shoot or fire Overwatch, if it has any bomb squigs remaining, the unit can release one. When it does so, you can select one enemy unit (excluding AIRCRAFT) that is within 12&quot; of the unit with a bomb squig (when firing Overwatch, this must be the charging unit) and roll one D6, adding 1 to the result if that enemy unit is a VEHICLE; on a 3+, that enemy unit suffers D3 mortal wounds. The number of bomb squigs the unit is equipped with is then reduced by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="c460-a737-e521-3fda" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="dde6-5c7f-fd8c-ddc2" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="fec1-334d-9242-46f9" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="41aa-883e-a577-e5cf" name="Cavalry" entryId="ad01-caec-17d9-cb8d" primary="false"/>
+            <category id="8af7-be42-dd29-0187" name="Beast Snagga" entryId="2dab-44c2-aa8b-df46" primary="false"/>
+            <category id="b62a-c24f-0984-9496" name="Squig" entryId="a528-ad36-9ba5-c186" primary="false"/>
+            <category id="d878-dd57-71ae-74d9" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="b2e8-e702-6395-aaea" name="Squighog Boyz" entryId="de0e-7d02-d08d-e4d3" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="b1d5-49e6-8871-b113" name="Warbikers" entryId="87c5-8a18-3876-76d6::88f3-f1da-0592-9755" number="1" type="unit">
+          <rules>
+            <rule id="87c5-8a18-3876-76d6::4c83-2c1f-4e33-f6eb::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+            <rule id="87c5-8a18-3876-76d6::45d4-7ee9-e085-d2ec::ad32-a248-a392-3d4a" name="Mob Rule" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>While this unit is within 6&quot; of a friendly &lt;CLAN&gt; MOB unit that is not under half strength, this unit is never considered to be under half strength</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="87c5-8a18-3876-76d6::81de-0170-547f-ff8f::8f1f-106e-4814-ccdd" name="Cloud of Smoke" publicationId="11b5-77b9-pubN65537" page="104" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is made against this unit, subtract 1 from that attack&apos;s hit roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="87c5-8a18-3876-76d6::e19f-6122-e8da-61d3::a06b-dead-e188-7a1e" name="Big Red Button" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model Advances, do not make an Advance roll.  Instead, until the end of the phase, add 6&quot; to the Move characteristic of this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="2ede-8129-ff59-0a50" name="Boss Nob" entryId="87c5-8a18-3876-76d6::8684-f400-5f0c-321e" entryGroupId="87c5-8a18-3876-76d6::f3bc-646a-81aa-36f1" number="1" type="model">
+              <profiles>
+                <profile id="87c5-8a18-3876-76d6::ee66-07e5-6136-86e2::90ed-de9d-b40a-65af" name="Boss Nob (Warbikers)" publicationId="11b5-77b9-pubN65537" page="104" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="2c0c-e801-bf16-0eee" name="Dakkagun" entryId="87c5-8a18-3876-76d6::8d31-c909-5937-339f::de10-70b3-ab64-990c" number="2" type="upgrade">
+                  <profiles>
+                    <profile id="87c5-8a18-3876-76d6::8d31-c909-5937-339f::78a8-f0cc-3cd4-faf7::7792-8d81-92b9-94e9" name="Dakkagun" publicationId="11b5-77b9-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2ba4-2b3e-a7ac-ffa9" name="Warbiker" entryId="87c5-8a18-3876-76d6::dac2-a42e-e46f-0479" entryGroupId="87c5-8a18-3876-76d6::f3bc-646a-81aa-36f1" number="5" type="model">
+              <profiles>
+                <profile id="87c5-8a18-3876-76d6::6a1a-47c8-17ea-d74d::de75-8912-152c-3da6" name="Warbiker" publicationId="11b5-77b9-pubN65537" page="104" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="7f7c-3e38-7e7c-1a81" name="Dakkagun" entryId="87c5-8a18-3876-76d6::b7a2-a27d-3fac-d63a::6dab-a2e7-bc58-056e" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="87c5-8a18-3876-76d6::b7a2-a27d-3fac-d63a::c79b-fb01-5d80-66c0::7792-8d81-92b9-94e9" name="Dakkagun" publicationId="11b5-77b9-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Dakka 5/3</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="125.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="d942-196d-36d7-afb3" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="3852-2843-012c-79f8" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="47d1-09a1-d0b1-2861" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
+            <category id="f8ed-5e35-0d82-3251" name="Warbikers" entryId="0bc4-7eb1-c830-ebcb" primary="false"/>
+            <category id="2455-35a1-1d2a-621e" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="07e7-3cf0-ff7f-2158" name="Speed Freeks" entryId="258d-e4cb-6f35-fe20" primary="false"/>
+            <category id="1efa-3cfa-19b7-7ab6" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="c541-e959-fb22-5018" name="Gretchin" entryId="1c7b-ea7d-7177-2010::96ec-51fe-cd61-b2c1" number="1" type="unit">
+          <profiles>
+            <profile id="1c7b-ea7d-7177-2010::a63f-1e9d-1e36-b55e" name="Cowardly" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly RUNTHERD model is within 6&quot; of this unit, each time a model in this unit makes a Combat Attrition test, subtract 1 from the result.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1c7b-ea7d-7177-2010::900f-4193-7be7-19dd" name="Diminutive" publicationId="11b5-77b9-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to a model in this unit while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="cc69-e9e8-ed04-c7e3" name="Gretchin" entryId="1c7b-ea7d-7177-2010::0e9e-6361-b40f-7feb" number="10" type="model">
+              <profiles>
+                <profile id="1c7b-ea7d-7177-2010::9298-c5d7-8747-cadd" name="Gretchin" publicationId="11b5-77b9-pubN65537" page="91" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">4</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="ac67-d017-4f2d-3a81" name="Grot Blaster" entryId="1c7b-ea7d-7177-2010::4ee0-b208-fa2c-55d0::a8f4-732e-fc64-3577" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="1c7b-ea7d-7177-2010::4ee0-b208-fa2c-55d0::efbc-9d9d-3981-66de" name="Grot Blaster" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ff0c-4658-0264-806a" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="bf7e-6dd5-e3a2-d048" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="0c67-9016-f830-bc74" name="Gretchin" entryId="0b2c-1505-90c2-24ed" primary="false"/>
+            <category id="3c5e-0add-1145-268d" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="5e0e-9f05-c522-87e8" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="1e4b-fd4c-7696-9220" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="c973-a368-86e3-b6e6" name="Gretchin" entryId="1c7b-ea7d-7177-2010::96ec-51fe-cd61-b2c1" number="1" type="unit">
+          <profiles>
+            <profile id="1c7b-ea7d-7177-2010::a63f-1e9d-1e36-b55e" name="Cowardly" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly RUNTHERD model is within 6&quot; of this unit, each time a model in this unit makes a Combat Attrition test, subtract 1 from the result.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1c7b-ea7d-7177-2010::900f-4193-7be7-19dd" name="Diminutive" publicationId="11b5-77b9-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to a model in this unit while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="01c1-420e-4a57-801e" name="Gretchin" entryId="1c7b-ea7d-7177-2010::0e9e-6361-b40f-7feb" number="10" type="model">
+              <profiles>
+                <profile id="1c7b-ea7d-7177-2010::9298-c5d7-8747-cadd" name="Gretchin" publicationId="11b5-77b9-pubN65537" page="91" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">4</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="8926-1fd9-d0c9-b613" name="Grot Blaster" entryId="1c7b-ea7d-7177-2010::4ee0-b208-fa2c-55d0::a8f4-732e-fc64-3577" number="10" type="upgrade">
+                  <profiles>
+                    <profile id="1c7b-ea7d-7177-2010::4ee0-b208-fa2c-55d0::efbc-9d9d-3981-66de" name="Grot Blaster" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="50.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="f0d3-aacd-6be3-9c2e" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="fec5-9554-83ba-f791" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+            <category id="dcf0-955e-2220-cb01" name="Gretchin" entryId="0b2c-1505-90c2-24ed" primary="false"/>
+            <category id="eaf8-4863-d096-1b5b" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="d9d8-c383-edba-e364" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="364e-11f3-1487-16f2" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="7dfd-d900-d710-41e3" name="Runtherd" entryId="14d9-a588-df5b-62ac::4a86-9031-67e9-cb27" number="1" type="model">
+          <rules>
+            <rule id="14d9-a588-df5b-62ac::9c22-e994-a1f4-f848::de72-9941-3d27-44e9" name="&apos;Ere We Go!" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
+              <description>You can re-roll charge rolls made for units with this ability.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="14d9-a588-df5b-62ac::aaf0-9c1e-299e-cf87::47d0-f0f8-0fd6-554e" name="Runtherd" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="14d9-a588-df5b-62ac::5d57-1e8c-d046-f323::bf44-f0b1-e2e1-2ebd" name="Runtherd (Restriction)" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you must include at least one GRETCHIN INFANTRY unit in a Detachment for each RUNTHERD unit in that Detachment. RUNTHERD units do not take up slots in a Detachment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9677-c523-9d06-a9bb" name="Slugga" entryId="14d9-a588-df5b-62ac::2da7-e98d-c616-73af::d13b-ad69-e6a2-d485" number="1" type="upgrade">
+              <profiles>
+                <profile id="14d9-a588-df5b-62ac::2da7-e98d-c616-73af::fa95-808b-2926-c26c::597d-56aa-73c4-88bf" name="Slugga" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8fd5-ebf7-82eb-cb28" name="Grabba Stikk" entryId="14d9-a588-df5b-62ac::e9b7-1d44-15d4-8dc5" entryGroupId="14d9-a588-df5b-62ac::7dfa-8517-487f-50ec" number="1" type="upgrade">
+              <profiles>
+                <profile id="14d9-a588-df5b-62ac::0797-4b68-545d-986a::2186-91a5-5eb1-48ef" name="Grabba Stikk" publicationId="11b5-77b9-pubN65537" page="97" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" Scrap Points" typeId="932a-ae3d-c6c7-6938" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="d8c2-ccd8-8ac9-f917" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="d23f-38f3-bdc1-8687" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="43a5-aac6-5318-d0b2" name="Runtherd" entryId="4c69-d276-dec1-ae44" primary="false"/>
+            <category id="9358-c0e5-97f2-ea38" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="a4ac-a753-9fd9-8dd9" name="Faction: &lt;Clan&gt;" entryId="2ab6-8d0f-494d-38e2" primary="false"/>
+            <category id="258e-bb4d-7631-84cf" name="Faction: Orks" entryId="1c58-037f-7b58-1223" primary="false"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="85df-1155-c986-4d71" name="Psychic Awakening IX: Pariah"/>
+        <publication id="c9fe-4431-b76d-267a" name="Psychic Awakening VIII: War of the Spider"/>
+        <publication id="ecea-8b62-fefb-9f8e" name="Psychic Awakening VII: Engine War"/>
+        <publication id="28ec-711c-pubN118139" name="Index: Xenos 2"/>
+        <publication id="5c2d-db9f-58ca-e7b2" name="Psychic Awakening IV: Ritual of the Damned"/>
+        <publication id="0865-ee21-d1f1-ed38" name="War Zone Charadon, Act I: The Book of Rust"/>
+        <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Core Book"/>
+        <publication id="28ec-711c-pubN78977" name="Index: Imperium 1"/>
+        <publication id="28ec-711c-pubN98266" name="Imperium Nihilus: Vigilus Defiant"/>
+        <publication id="52c4-39c0-ae97-d4dc" name="Psychic Awakening VI: Saga of the Beast"/>
+        <publication id="b854-bcb5-5746-e0d3" name="War Zone Charadon, Act II: The Book of Fire"/>
+        <publication id="28ec-711c-pubN77581" name="Index: Imperium 2"/>
+        <publication id="5093-9448-d8cc-5327" name="Psychic Awakening II: Faith and Fury"/>
+        <publication id="255d-c624-9fcb-ca23" name="War Zone Octarius, Book 2: Critical Mass"/>
+        <publication id="28ec-711c-pubN76527" name="Index: Xenos 1"/>
+        <publication id="5b08-09e5-a80a-fd67" name="Psychic Awakening I: Phoenix Rising"/>
+        <publication id="977a-446b-737a-b571" name="Chapter Approved 2021"/>
+        <publication id="11b5-77b9-pubN65537" name="Codex: Orks 2021"/>
+        <publication id="ce40-ec9e-21e2-2e42" name="Warhammer Quest: Blackstone Fortress"/>
+        <publication id="28ec-711c-pubN99666" name="Index: Chaos"/>
+        <publication id="b556-84c7-4532-bca5" name="Da Red Gobbbo on Bounca"/>
+        <publication id="f000-7b0c-01bf-7630" name="Psychic Awakening III: Blood of Baal"/>
+        <publication id="7573-8d1b-acdf-2de8" name="Imperial Armour: Compendium"/>
+        <publication id="b652-8bab-1453-da20" name="Warhammer Legends"/>
+        <publication id="4a3e-a6d9-b5f8-3e3d" name="Shadow Throne"/>
+        <publication id="e056-7215-247f-0a20" name="War Zone Octarius, Book 1: Rising Tide"/>
+        <publication id="4593-a2f0-546a-d6f2" name="Psychic Awakening V: The Greater Good"/>
+        <publication id="2ec0-6d53-e36b-9895" name="Chapter Approved 2018"/>
+        <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
+      </publications>
+      <categories>
+        <category id="ce6d-33c0-7291-f77c" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="e355-bfc4-731c-d99d" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <category id="c177-319e-64ea-8e70" name="Stratagems" entryId="c845-c72c-6afe-3fc2" primary="false"/>
+        <category id="1766-c984-536a-63e0" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="692d-99c4-dcc0-d814" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="3d47-04b2-d569-16d1" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="2057-9716-e06c-2270" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="4433-8187-e7c7-fd2c" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="2270-fce5-8e12-8ab7" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="d24e-c67c-3456-0fd7" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="1053-ec73-d261-a592" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="914c-c46c-f4eb-5268" name="Lord of War" entryId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
+        <category id="8cdb-d9c2-cf50-e591" name="Fortification" entryId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
