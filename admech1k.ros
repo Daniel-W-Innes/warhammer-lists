@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<roster id="3430-fe46-a317-dd07" name="admech 1k" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 9th Edition" gameSystemRevision="221" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+<roster id="3430-fe46-a317-dd07" name="admech 1k" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 9th Edition" gameSystemRevision="238" xmlns="http://www.battlescribe.net/schema/rosterSchema">
   <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="54.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="5.0"/>
-    <cost name="pts" typeId="points" value="981.0"/>
+    <cost name="pts" typeId="points" value="896.0"/>
   </costs>
   <costLimits>
     <costLimit name="pts" typeId="points" value="1000.0"/>
   </costLimits>
   <forces>
-    <force id="34d9-71a4-05f0-e488" name="Patrol Detachment 0CP" entryId="a0c7-2a71-bae0-215d" catalogueId="ebe8-544e-1fe8-fcde" catalogueRevision="190" catalogueName="Imperium - Adeptus Mechanicus">
+    <force id="34d9-71a4-05f0-e488" name="Patrol Detachment 0CP" entryId="a0c7-2a71-bae0-215d" catalogueId="ebe8-544e-1fe8-fcde" catalogueRevision="199" catalogueName="Imperium - Adeptus Mechanicus">
       <selections>
         <selection id="4027-b6ca-7c5c-b731" name="Battle Size" entryId="44e3-c224-ba82-1b55::f29d-8a5d-18b6-a071" number="1" type="upgrade">
           <selections>
@@ -27,7 +27,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="3d27-eb84-1cf3-0961" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="9d65-94af-6727-3477" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="6964-298a-e7e1-31b7" name="Forge World Choice" entryId="4fdc-b9a7-3fe7-9e84::0dbb-e7cd-4b8e-92aa" number="1" type="upgrade">
@@ -35,7 +35,7 @@
             <selection id="5403-ea20-b109-12fb" name="Forge World: Lucius" entryId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::a872-1f68-2ca6-5946::7d9f-9c3f-0a41-5399" entryGroupId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::8f3b-b73c-bc99-e19a" number="1" type="upgrade">
               <rules>
                 <rule id="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::f609-a72d-9a96-1bef::c899-8aad-148c-ef2c" name="Dogma - Solar Blessing" publicationId="ebe8-544e-pubN65537" page="52" hidden="false">
-                  <description>• Each time an attack with a Damage characteristic of 1 is allocated to a model with this dogma, unless that model is receiving the benefits of Light Cover, add 1 to any armour saving throw made against that attack.
+                  <description>• Each time an attack with a Damage characteristic of 1 is allocated to a model with this dogma add 1 to any armour saving throw made against that attack.
 • Add 3&quot; to the Range characteristic of ranged weapons that models with this dogma are equipped with.</description>
                 </rule>
               </rules>
@@ -52,7 +52,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="4271-3ff5-ebcf-0ce9" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="3ed8-923c-bee6-6072" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="56d9-3050-cd23-57d3" name="Skitarii Marshal" entryId="ca80-7317-3d89-af8d::4936-c7d9-d0e0-c23b" number="1" type="model">
@@ -137,7 +137,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
               <categories>
-                <category id="85ca-724f-1002-4e46" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+                <category id="dcce-b389-3f27-84f2" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
               </categories>
             </selection>
             <selection id="af74-9066-8e87-d4c4" name="Relic: Exemplar&apos;s Eternity" entryId="ca80-7317-3d89-af8d::5d8d-5557-77ed-896d::5faa-cc18-7ddd-3cbd::ccec-8d6e-612f-5e7c" entryGroupId="ca80-7317-3d89-af8d::5d8d-5557-77ed-896d::231f-7ac6-90ea-0f52" publicationId="ebe8-544e-pubN65537" page="68" number="1" type="upgrade">
@@ -170,21 +170,21 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             </selection>
           </selections>
           <costs>
-            <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="0d05-0ca6-657c-aa6b" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="abcf-c46c-7c29-2668" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="5797-3b94-1aad-018a" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="faa5-3acc-bfed-1b3f" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="c562-8e14-4cd0-fbda" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="fafa-0630-44e6-6660" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="d2ab-3ebf-1f2b-489e" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="42dd-3162-6d1b-bf08" name="Doctrina Assembler" entryId="6511-1923-6cd1-231e" primary="false"/>
-            <category id="5b8f-6b45-3a01-86c2" name="Skitarii Marshal" entryId="2acd-5989-56ac-69b4" primary="false"/>
-            <category id="0421-596c-0b03-cfb1" name="Skitarii Veteran Cohort" entryId="ad5e-c5a6-d40a-5c5f" primary="false"/>
+            <category id="ab8a-723c-3d02-cbbb" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="d4ce-6b90-f8c8-7b53" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="0f85-c408-d5e4-a4d4" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="ba5a-d60d-fd57-9bb2" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="9004-d7fe-3d00-71b3" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="9910-f6e1-7593-37e6" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="20a0-0f87-8cb1-9bbe" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="c5cd-9075-31f9-f2c1" name="Doctrina Assembler" entryId="6511-1923-6cd1-231e" primary="false"/>
+            <category id="febb-9cbc-8f8f-cd7f" name="Skitarii Marshal" entryId="2acd-5989-56ac-69b4" primary="false"/>
+            <category id="131d-1c0d-894f-2a3b" name="Skitarii Veteran Cohort" entryId="ad5e-c5a6-d40a-5c5f" primary="false"/>
           </categories>
         </selection>
         <selection id="a5f4-b6cc-5cfc-8ac6" name="Tech-Priest Manipulus" entryId="6a67-f113-53dc-e9be::708d-afbe-922d-8dde" publicationId="ebe8-544e-pubN65537" page="87" number="1" type="model">
@@ -303,13 +303,6 @@ While this canticle is active, each time a melee attack is made against this uni
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selection>
-            <selection id="02cf-c21a-c315-a1b8" name="Mechanicus Locum" entryId="6a67-f113-53dc-e9be::faa3-c0ab-2719-a157::82f3-69c6-8ebf-a266" number="1" type="upgrade">
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selection>
             <selection id="15ac-1916-79ba-988b" name="Logi" entryId="6a67-f113-53dc-e9be::7f19-773d-256e-a0a3::e6f8-722d-e23a-4429::9232-27a0-b7e5-de60" entryGroupId="6a67-f113-53dc-e9be::7f19-773d-256e-a0a3::5aaf-7a8b-92b4-6202" number="1" type="upgrade">
               <profiles>
                 <profile id="6a67-f113-53dc-e9be::7f19-773d-256e-a0a3::e6f8-722d-e23a-4429::88d2-f21a-1b2c-437f" name="Scriptural Prognosis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -334,7 +327,14 @@ While this canticle is active, each time a melee attack is made against this uni
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selection>
-            <selection id="f501-b7ff-5325-9054" name="Warlord Trait (Lucius): Luminescent Blessings" entryId="6a67-f113-53dc-e9be::e3af-72a0-7fdb-6a02::8e28-9bbb-0b29-9ed2::baf9-5af1-f10b-658b" entryGroupId="6a67-f113-53dc-e9be::e3af-72a0-7fdb-6a02::29c7-aac7-6c82-c618" publicationId="ebe8-544e-pubN65537" page="52" number="1" type="upgrade">
+            <selection id="5200-fd71-a411-c1b0" name="Stratagem: Mechanicus Locum" entryId="6a67-f113-53dc-e9be::60e5-0758-af45-736e::6bb0-a54c-f4ce-2321::82f3-69c6-8ebf-a266" entryGroupId="6a67-f113-53dc-e9be::60e5-0758-af45-736e::a53c-cde9-df16-ca1c" number="1" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="96e2-c49d-44ba-0493" name="Warlord Trait (Lucius): Luminescent Blessings" entryId="6a67-f113-53dc-e9be::e3af-72a0-7fdb-6a02::8e28-9bbb-0b29-9ed2::baf9-5af1-f10b-658b" entryGroupId="6a67-f113-53dc-e9be::e3af-72a0-7fdb-6a02::29c7-aac7-6c82-c618" publicationId="ebe8-544e-pubN65537" page="52" number="1" type="upgrade">
               <profiles>
                 <profile id="6a67-f113-53dc-e9be::e3af-72a0-7fdb-6a02::8e28-9bbb-0b29-9ed2::c1d7-18e6-c17f-9287::4d56-6c20-8ea6-9df6" name="Luminescent Blessings" publicationId="ebe8-544e-pubN65537" page="52" hidden="false" typeId="7df1-74bd-09c9-492c" typeName="Warlord Trait">
                   <characteristics>
@@ -351,20 +351,20 @@ While this canticle is active, each time a melee attack is made against this uni
           </selections>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts" typeId="points" value="70.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="f701-1e7a-fd90-590d" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="92b4-e3a8-4e0e-4074" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="0d45-8b58-001e-04d9" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="2b93-1f92-e4eb-3f54" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
-            <category id="5ba4-a6e8-067c-3ad5" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="e60b-27f8-ca21-548e" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="6922-5457-62c3-509b" name="Tech-Priest" entryId="6743-7925-6ec5-6b91" primary="false"/>
-            <category id="6f55-706e-6fc3-2c58" name="Tech-Priest Manipulus" entryId="1d15-5b91-4246-9d78" primary="false"/>
-            <category id="4a6c-c3a6-a929-812f" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="6ec9-ed0d-075d-02cc" name="Doctrina Assembler" entryId="6511-1923-6cd1-231e" primary="false"/>
+            <category id="49e6-e9a5-237a-5533" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="15e6-2928-18e1-021d" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="cee5-021d-433e-9468" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="9511-a6ea-d52d-5c4a" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
+            <category id="7b1d-d6d5-3de8-921c" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="e51f-aa83-0224-71cb" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="1675-d31d-a53e-3a27" name="Tech-Priest" entryId="6743-7925-6ec5-6b91" primary="false"/>
+            <category id="5cd8-dcf7-9096-48ef" name="Tech-Priest Manipulus" entryId="1d15-5b91-4246-9d78" primary="false"/>
+            <category id="d20e-0a63-86e6-b1de" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="c483-f9b7-cc79-b61d" name="Doctrina Assembler" entryId="6511-1923-6cd1-231e" primary="false"/>
           </categories>
         </selection>
         <selection id="7d00-6e0a-319a-12f1" name="Skitarii Rangers" entryId="6e02-98e6-5e5d-6f85::ba77-6fd9-7474-7095" publicationId="ebe8-544e-pubN65537" page="" number="1" type="unit">
@@ -386,7 +386,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             </profile>
             <profile id="6e02-98e6-5e5d-6f85::6c9b-ba19-9123-406b::edf0-6bc2-d76e-6004" name="Bionics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 6+ invulnerable save.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -434,7 +434,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
               <categories>
-                <category id="eac6-19e2-836a-d996" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+                <category id="f253-357f-9637-6f26" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
               </categories>
             </selection>
             <selection id="9023-620d-e35a-72ef" name="Skitarii Ranger" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::f293-2f3c-5067-61bc" entryGroupId="6e02-98e6-5e5d-6f85::5ec2-817e-c2d8-bb63" number="17" type="model">
@@ -511,7 +511,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="20.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -532,12 +532,12 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
               <categories>
-                <category id="e80c-769c-406d-3b27" name="Data-Tether" entryId="613c-50b6-79c4-b61a" primary="false"/>
+                <category id="696f-ee14-2438-b221" name="Data-Tether" entryId="613c-50b6-79c4-b61a" primary="false"/>
               </categories>
             </selection>
             <selection id="62c2-78ca-4467-042e" name="Omnispex" entryId="6e02-98e6-5e5d-6f85::ef88-d086-7775-ef4b::50cd-f31b-6eae-98d2::cf22-2bee-d5f2-569b" entryGroupId="6e02-98e6-5e5d-6f85::ef88-d086-7775-ef4b::2379-25fc-b920-bed3" number="1" type="upgrade">
@@ -549,7 +549,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -561,14 +561,14 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
           </costs>
           <categories>
-            <category id="39ba-5960-32e3-ccac" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="ef55-d00a-6f3c-4518" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="b3ca-d0fb-20b9-d1ee" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="a139-fee2-fe2a-32c0" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="34f3-5bf7-2ce3-34f7" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="c0c0-63ac-6b7f-7f65" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
-            <category id="b851-79d6-3036-dbfc" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="f878-f6d9-34a2-b764" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="9d66-aee1-3e20-ee34" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="5b3d-d34d-06c3-6c85" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="6377-bf3f-1e98-f28b" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="0ddb-0334-fa01-e9cd" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="7769-7d2a-c5a8-47f3" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="b66b-1b7f-8cc0-a67c" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+            <category id="339a-9508-0649-7b57" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="429e-90be-c33a-67eb" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="95f0-b622-a6d5-cc91" name="Skitarii Vanguards" entryId="5d23-9c2d-45e9-1c7f::ed1e-bdea-6881-edd6" publicationId="ebe8-544e-pubN65537" page="76" number="1" type="unit">
@@ -585,7 +585,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
           <profiles>
             <profile id="5d23-9c2d-45e9-1c7f::e81b-ba45-ada6-41bd::edf0-6bc2-d76e-6004" name="Bionics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 6+ invulnerable save.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
             <profile id="5d23-9c2d-45e9-1c7f::5a63-5958-5587-047e::1113-b787-77c6-ec62" name="Rad-saturation (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -690,12 +690,12 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
               <categories>
-                <category id="d020-8245-2ad3-1520" name="Data-Tether" entryId="613c-50b6-79c4-b61a" primary="false"/>
+                <category id="0556-35a1-94b8-7878" name="Data-Tether" entryId="613c-50b6-79c4-b61a" primary="false"/>
               </categories>
             </selection>
             <selection id="b2e0-192a-53a2-ee83" name="Omnispex" entryId="5d23-9c2d-45e9-1c7f::1dcd-7ad3-4602-7ca4::50cd-f31b-6eae-98d2::cf22-2bee-d5f2-569b" entryGroupId="5d23-9c2d-45e9-1c7f::1dcd-7ad3-4602-7ca4::2379-25fc-b920-bed3" number="1" type="upgrade">
@@ -707,7 +707,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -753,7 +753,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="20.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -772,14 +772,14 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="fad2-ee51-c9d2-62db" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="9857-774e-4290-41d5" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="56f8-98b2-85d7-d8c0" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="bc32-95ed-9855-8ee8" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="9c89-35fb-cfcf-29b9" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="2d29-ee6e-0bda-531d" name="Skitarii Vanguard" entryId="f4e9-fdfc-d210-f161" primary="false"/>
-            <category id="92d6-1295-6199-3138" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="b812-5f1d-dd45-419b" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="ca83-a50c-8488-efc5" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="17d4-7e8e-ccf6-eae0" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="f19e-4f4e-ae12-530e" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="e963-057c-5bc9-152e" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="0807-4a92-24fe-df4a" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="5f39-bce2-13ad-5961" name="Skitarii Vanguard" entryId="f4e9-fdfc-d210-f161" primary="false"/>
+            <category id="5c26-752a-1a85-40d9" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="b573-aaf4-6b3e-c3b2" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="03c7-2324-12bf-15ef" name="Sicarian Infiltrators" entryId="b7b9-67ad-9517-679a::606f-d3f0-0649-c4e8" publicationId="ebe8-544e-pubN65537" page="79" number="1" type="unit">
@@ -873,7 +873,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
                 </selection>
               </selections>
               <costs>
-                <cost name="pts" typeId="points" value="76.0"/>
+                <cost name="pts" typeId="points" value="68.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -936,7 +936,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
               </selections>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="19.0"/>
+                <cost name="pts" typeId="points" value="17.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selection>
@@ -947,15 +947,15 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="7a88-0f04-c97e-62a2" name="Sicarian Infiltrators" entryId="3ef1-101b-798e-840c" primary="false"/>
-            <category id="bb6a-4527-bc88-5878" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="8ac9-0ba9-a221-178e" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="e01a-18d2-3e80-5720" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="1d5a-6559-a7cf-fb72" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="dc27-f352-e03b-937a" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="4735-ccbf-c6b3-b02b" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-            <category id="f51d-ade7-b8e9-37f9" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
-            <category id="ed96-47c7-799b-ee4c" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="703c-14e1-4dae-91c5" name="Sicarian Infiltrators" entryId="3ef1-101b-798e-840c" primary="false"/>
+            <category id="3daa-9057-af0d-14bb" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="a1aa-3dd8-203a-5c9c" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="3323-d806-3c1d-a3a3" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="6325-d1b7-7a46-020b" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="a313-274d-703b-7ec3" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="4e60-a7af-0369-2df6" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+            <category id="42a8-5d22-4106-66f2" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
+            <category id="adc2-351c-8e51-41c3" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="b5f3-8a16-6deb-c1f9" name="Skorpius Disintegrator" entryId="f4fb-9663-c072-3919::ebe8-6709-9b5c-b018" number="1" type="model">
@@ -1083,21 +1083,21 @@ This weapon can target units that are not visible to the bearer</characteristic>
             </selection>
           </selections>
           <costs>
-            <cost name="pts" typeId="points" value="145.0"/>
+            <cost name="pts" typeId="points" value="125.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="c19e-1986-553d-3324" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="cc26-9bf6-efb8-8b47" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="eee0-a25f-682e-85d5" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="2046-dd6f-600e-4c14" name="Skorpius Disintegrator" entryId="250e-03cd-96ec-e2ba" primary="false"/>
-            <category id="b383-0759-2c04-fbf8" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="57c9-9917-870b-67ac" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-            <category id="8adb-94e8-204b-6da9" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="6610-c07e-f4f9-fb1b" name="Skorpius Engine" entryId="2a9c-76d4-5097-66db" primary="false"/>
-            <category id="0d98-5e9b-cc4b-37f5" name="Data-Tether" entryId="613c-50b6-79c4-b61a" primary="false"/>
-            <category id="fc2b-5969-83b7-da34" name="Skitarii Veteran Cohort" entryId="ad5e-c5a6-d40a-5c5f" primary="false"/>
+            <category id="c329-7dce-7224-bb0a" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="2826-9661-7ac6-fe1e" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="fce8-2a48-f31f-a6fe" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="8c83-7780-29ca-d0f4" name="Skorpius Disintegrator" entryId="250e-03cd-96ec-e2ba" primary="false"/>
+            <category id="7e7b-6179-ca3e-2421" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="0a10-889e-c046-5b14" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="de8c-6abe-51e3-cd26" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="256e-6622-78b2-d6c0" name="Skorpius Engine" entryId="2a9c-76d4-5097-66db" primary="false"/>
+            <category id="c05a-2c33-dbcf-a91c" name="Data-Tether" entryId="613c-50b6-79c4-b61a" primary="false"/>
+            <category id="f6bd-ae81-296a-e71f" name="Skitarii Veteran Cohort" entryId="ad5e-c5a6-d40a-5c5f" primary="false"/>
           </categories>
         </selection>
         <selection id="18af-a3a8-fca7-3bd7" name="Detachment Command Cost" entryId="ec87-f19e-eee2-1ba8::9d97-2793-9882-d48a" number="1" type="upgrade">
@@ -1107,7 +1107,7 @@ This weapon can target units that are not visible to the bearer</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
           <categories>
-            <category id="f550-78b8-f737-c1a0" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="fa99-509e-3ae0-e635" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="3c7c-f9a8-e1d7-8222" name="Serberys Raiders" entryId="e9c2-ec7b-1e02-d533::0b7b-1ed0-3629-81ac" publicationId="ecea-8b62-fefb-9f8e" number="1" type="unit">
@@ -1332,18 +1332,18 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
           <categories>
-            <category id="e765-7b92-e468-69a3" name="Cavalry" entryId="ad01-caec-17d9-cb8d" primary="false"/>
-            <category id="f86a-53b0-e704-485c" name="Serberys Raiders" entryId="8fdd-f2cf-07cf-791a" primary="false"/>
-            <category id="1e9b-1172-8965-2828" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="b011-b6d7-276a-a183" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="3c52-0efc-ef40-c68d" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="7f64-a482-b487-2d37" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="21dd-9257-0feb-70d6" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-            <category id="df37-ffa3-f5e1-cc68" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
-            <category id="0609-0c02-5b4e-d6b2" name="Serberys" entryId="435e-54b0-0d08-0a51" primary="false"/>
+            <category id="5095-d664-d067-2da1" name="Cavalry" entryId="ad01-caec-17d9-cb8d" primary="false"/>
+            <category id="524d-3f83-995c-35c3" name="Serberys Raiders" entryId="8fdd-f2cf-07cf-791a" primary="false"/>
+            <category id="ca4e-5a79-1dc2-98ef" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="6c4c-1920-4ace-1950" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="895b-9343-5a15-a0ce" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="7c5a-976d-66ab-d1db" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="8dd0-d2ae-c831-d7b3" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="6511-0c50-9f55-eba6" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="f66c-fe39-6bb2-d804" name="Serberys" entryId="435e-54b0-0d08-0a51" primary="false"/>
           </categories>
         </selection>
-        <selection id="5e86-531a-7795-20fa" name="Gametype" entryId="4bcc-b0f4-b425-f38e::bf09-85b2-c097-1071" number="1" type="upgrade">
+        <selection id="5e86-531a-7795-20fa" name="Game Type" entryId="4bcc-b0f4-b425-f38e::bf09-85b2-c097-1071" number="1" type="upgrade">
           <selections>
             <selection id="55de-6855-abd9-7c54" name="2. Chapter Approved 2021" entryId="4bcc-b0f4-b425-f38e::512b-6377-9cdb-278a" entryGroupId="4bcc-b0f4-b425-f38e::58c5-1d35-3869-613f" number="1" type="upgrade">
               <costs>
@@ -1359,7 +1359,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="372a-abed-735e-89cd" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="7006-b4ab-f72c-921b" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
       </selections>
@@ -1380,6 +1380,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <publication id="28ec-711c-pubN77581" name="Index: Imperium 2"/>
         <publication id="db16-1a92-fdd3-95a9" name="The Balance Dataslate"/>
         <publication id="09f4-6657-ccd5-6e61" name="War Zone Nephilim: Grand Tournament"/>
+        <publication id="b619-ccba-pubN66040" name="Dataslate: Elucidian Starstriders"/>
         <publication id="5093-9448-d8cc-5327" name="Psychic Awakening II: Faith and Fury"/>
         <publication id="255d-c624-9fcb-ca23" name="War Zone Octarius, Book 2: Critical Mass"/>
         <publication id="28ec-711c-pubN76527" name="Index: Xenos 1"/>
@@ -1400,21 +1401,21 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
       </publications>
       <categories>
-        <category id="bdc7-8819-47ca-8d84" name="Uncategorised" entryId="(No Category)" primary="false"/>
-        <category id="0410-86a7-b181-03c0" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="false"/>
-        <category id="70a1-120f-c682-7f9e" name="Stratagems" entryId="c845-c72c-6afe-3fc2" primary="false"/>
-        <category id="41e5-e186-51f1-1d66" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <category id="188b-1fa2-5fbf-18e9" name="Agents of the Imperium" entryId="0f35-2c34-ba6a-8105" primary="false"/>
-        <category id="f1e9-86fe-43f1-dcac" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <category id="bdd2-025c-3fd1-d64d" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <category id="bad1-365b-4f10-f8ae" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <category id="5028-6502-711d-12a8" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <category id="0a56-757f-678d-cae4" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <category id="e06a-78ef-7cee-ae57" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
-        <category id="1351-c1fb-18b7-09db" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
-        <category id="07c2-dd1d-10d6-6ff1" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
-        <category id="0d13-4c0f-3879-b4da" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
-        <category id="5977-8d89-49cc-ac6b" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
+        <category id="d6d7-5ce2-365b-0016" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="dcef-fb96-61cf-d640" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <category id="12fb-44dc-d1f7-78ba" name="Stratagems" entryId="c845-c72c-6afe-3fc2" primary="false"/>
+        <category id="e31b-7837-8a5d-0617" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="d50b-c1a1-acf8-04d8" name="Agents of the Imperium" entryId="0f35-2c34-ba6a-8105" primary="false"/>
+        <category id="854e-42d1-88e1-b017" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="19d2-aed2-9495-a362" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="2c09-a3b7-e71b-a1fd" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="91c7-1397-0c5b-1ef4" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="c3d5-7c02-a224-886c" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="5b08-7dc5-1e63-d746" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="7fb9-2c7e-f2b9-c50b" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="7b2a-6a3e-17ba-632b" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <category id="6b94-0dde-e948-c872" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
+        <category id="7a2c-d67f-4fa1-a1f3" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
       </categories>
     </force>
   </forces>
