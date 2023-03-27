@@ -13,12 +13,12 @@
       <selections>
         <selection id="1e0e-e607-297c-43e7" name="Forge World Choice" entryId="4fdc-b9a7-3fe7-9e84::0dbb-e7cd-4b8e-92aa" number="1" type="upgrade">
           <selections>
-            <selection id="d6f7-a54a-35e2-adc4" name="Forge World: Mars" entryId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::a629-aac7-aa2d-ddfd::bde4-e5f7-024d-78a4" entryGroupId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::8f3b-b73c-bc99-e19a" number="1" type="upgrade">
+            <selection id="f315-ddec-bfa3-c843" name="Forge World: Ryza" entryId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::1eb9-4ced-1ea0-2e29::dda9-4fa4-d7ea-041c" entryGroupId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::8f3b-b73c-bc99-e19a" number="1" type="upgrade">
               <rules>
-                <rule id="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::0b1d-e126-46f5-1538::77df-46cb-176f-8bf9" name="Dogma - Masters of the Forge" publicationId="ebe8-544e-pubN65537" page="51" hidden="false">
+                <rule id="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::b6a0-acd1-fd54-7798::ff56-b342-a385-7252" name="Dogma - Red in Cog and Claw" publicationId="ebe8-544e-pubN65537" page="56" hidden="false">
                   <description>
-• SKITARII units in this detachment gain the Canticles of the Omnissiah ability.
-• Each time a unit with this dogma is selected to shoot or fight, you can re-roll one hit roll when resolving that unit&apos;s attacks.</description>
+• Each time a model with this dogma makes a melee attack, if it made a charge move, was charged, or performed a Heroic Intervention this turn, add 1 to that attack&apos;s wound roll.
+• Add 1 to charge rolls made for units with this dogma.</description>
                 </rule>
               </rules>
               <costs>
@@ -34,7 +34,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="3ad1-56e7-422c-d29e" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="59a8-96c3-aa01-d2b0" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="8095-a6cf-ce44-3c76" name="Game Type" entryId="4bcc-b0f4-b425-f38e::bf09-85b2-c097-1071" number="1" type="upgrade">
@@ -53,7 +53,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="95e2-8c42-8ebb-bb01" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="1d77-be05-9cea-8ca5" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="48f7-3428-9712-59fc" name="Detachment Command Cost" entryId="ec87-f19e-eee2-1ba8::9d97-2793-9882-d48a" number="1" type="upgrade">
@@ -63,7 +63,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
           <categories>
-            <category id="a421-1886-98e4-78a7" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="56dd-dff0-612f-c277" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="311e-94ef-b33c-2f9e" name="Battle Size" entryId="44e3-c224-ba82-1b55::f29d-8a5d-18b6-a071" number="1" type="upgrade">
@@ -82,7 +82,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="b13f-819d-e959-745b" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="1c9f-ae0e-8ff8-f16c" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
           </categories>
         </selection>
         <selection id="80ef-9910-fbe5-7a5e" name="Skitarii Vanguards" entryId="5d23-9c2d-45e9-1c7f::ed1e-bdea-6881-edd6" publicationId="ebe8-544e-pubN65537" page="76" number="1" type="unit">
@@ -203,14 +203,14 @@ Each time an attack is made with this weapon, the target does not receive the be
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="b897-7b3e-a7da-c241" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="2bf9-4717-24bf-764e" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="632c-7b8a-ff60-4954" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="04cb-89ea-1170-9205" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="05d0-1171-8d5d-eb3d" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="e712-07b4-a693-cc7a" name="Skitarii Vanguard" entryId="f4e9-fdfc-d210-f161" primary="false"/>
-            <category id="be8b-d014-f669-f323" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="3040-f45d-c59b-1f1f" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="328a-199d-43ec-5bbb" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="66e0-e60f-12e7-6c02" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="f950-9ab2-277f-c8ea" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="0878-f009-9f03-7e43" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="db49-7019-3aaa-7d2e" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="a8a0-8236-81ba-eb8f" name="Skitarii Vanguard" entryId="f4e9-fdfc-d210-f161" primary="false"/>
+            <category id="a296-d819-72d8-c3e3" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="cba7-941d-2486-cc9a" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="9995-3d3f-e604-926f" name="Kataphron Breachers" entryId="c4ed-cb92-9c78-344c::462e-7d8f-4ff3-6330" publicationId="ebe8-544e-pubN65537" page="76" number="1" type="unit">
@@ -431,15 +431,15 @@ While this canticle is active, each time a melee attack is made against this uni
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="87c4-a707-a937-33a5" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="a2a5-061b-0821-ea78" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="bcc5-1ac4-4576-9bf1" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="951c-4f05-68b4-15a9" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
-            <category id="e2be-efa3-386e-84a3" name="Kataphron Breachers" entryId="3966-1076-64dc-9148" primary="false"/>
-            <category id="faa8-d5cf-3497-4a9a" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="95db-7133-a307-68e0" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
-            <category id="5015-b198-b9a3-7a35" name="Kataphron Servitors" entryId="30ba-4cc5-24da-cca1" primary="false"/>
-            <category id="212e-35e4-b607-00a7" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="e312-4533-4c82-1062" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="52d4-4d25-ab5a-9316" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="ee0e-96bf-2979-c809" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="d11e-e47e-ed65-49b0" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
+            <category id="4f2c-02c3-7c0c-ef76" name="Kataphron Breachers" entryId="3966-1076-64dc-9148" primary="false"/>
+            <category id="69ec-eb73-b449-bff8" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="59ce-61bb-1a3b-7b3f" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
+            <category id="9573-c483-de07-dd3a" name="Kataphron Servitors" entryId="30ba-4cc5-24da-cca1" primary="false"/>
+            <category id="18a8-2a48-8868-03c5" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="cfb2-af4b-c1ac-2664" name="Sicarian Ruststalkers" entryId="15db-edfb-487f-9588::321a-efc3-31ca-0865" publicationId="ebe8-544e-pubN65537" page="79" number="1" type="unit">
@@ -583,15 +583,15 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="590a-46e2-90c5-d8d6" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="9774-7d48-b2a5-b944" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="993c-2621-3ae4-cf09" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="3a10-0d72-a6d1-5953" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="a1a8-f677-0306-ef0c" name="Sicarian Ruststalkers" entryId="dcc4-65b7-b4a5-8611" primary="false"/>
-            <category id="9aaf-c232-cdbc-35d5" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="9d01-c98c-be1c-dbce" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-            <category id="2b76-d728-368d-be2f" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
-            <category id="01b4-2f99-0dbf-3253" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="545b-3add-763c-084c" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="c365-7012-c735-42cc" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="12c7-4719-1b83-6de4" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="b877-a63b-3488-1107" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="b8ee-0f44-0e05-f1fa" name="Sicarian Ruststalkers" entryId="dcc4-65b7-b4a5-8611" primary="false"/>
+            <category id="db7e-bb39-5bdf-90bc" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="2dd0-1999-1490-c442" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+            <category id="22e0-60fd-2672-d22b" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
+            <category id="dec8-7a89-fdc7-e2ca" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="d0c5-1fd3-d363-2e2e" name="Sicarian Infiltrators" entryId="b7b9-67ad-9517-679a::606f-d3f0-0649-c4e8" publicationId="ebe8-544e-pubN65537" page="79" number="1" type="unit">
@@ -759,15 +759,15 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="e0b1-5406-f449-4d24" name="Sicarian Infiltrators" entryId="3ef1-101b-798e-840c" primary="false"/>
-            <category id="f339-650f-40c2-f2b9" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="1e57-e864-a35f-1d1d" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="a78e-fd7c-c975-9a47" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="6ae9-f304-8259-f650" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="1911-8183-86df-1c3e" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="4880-6678-b49f-ad96" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-            <category id="6819-9024-cb72-2b5e" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
-            <category id="2400-bb76-8760-d306" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="1173-f9a9-b7bf-856f" name="Sicarian Infiltrators" entryId="3ef1-101b-798e-840c" primary="false"/>
+            <category id="b500-7fe4-e336-513c" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="d363-ae53-6790-3ce4" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="3ffd-fc3b-7c67-6e64" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="b7b3-aa88-b692-5a65" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="c2d8-dee0-c042-9ce3" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="c9f4-5483-ceff-00e6" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+            <category id="3fd5-3614-cb49-6743" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
+            <category id="621d-9f6a-1f03-4b32" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="5cb1-6287-5d69-3aab" name="Sicarian Ruststalkers" entryId="15db-edfb-487f-9588::321a-efc3-31ca-0865" publicationId="ebe8-544e-pubN65537" page="79" number="1" type="unit">
@@ -911,15 +911,15 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="92fc-3596-20dd-d248" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="81cc-2749-b9f4-ffa7" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="9677-546f-4606-2d40" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
-            <category id="6e81-db42-dc60-09c3" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="9b89-2fec-c96c-33ee" name="Sicarian Ruststalkers" entryId="dcc4-65b7-b4a5-8611" primary="false"/>
-            <category id="c17c-2805-cfc6-07b7" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="9347-6081-ef50-e620" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-            <category id="ee3a-fe14-55e7-7152" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
-            <category id="843b-be18-4881-dab3" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="945e-123e-8187-62c4" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="9aa4-41f0-dedf-97dd" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="35b3-0250-ab47-57a3" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="bf32-b122-e0dd-f1af" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="24b2-0a9c-5bd6-a0ad" name="Sicarian Ruststalkers" entryId="dcc4-65b7-b4a5-8611" primary="false"/>
+            <category id="f0a6-3c5e-ddaf-7b15" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="3d9f-08d6-49f7-475c" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+            <category id="6d32-8ca4-8bc4-4a5f" name="Sicarian" entryId="4f09-de91-69e0-097e" primary="false"/>
+            <category id="1ecb-70f6-61c5-1cde" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
           </categories>
         </selection>
         <selection id="e7fc-4204-fdd3-ff87" name="Tech-Priest Dominus" entryId="fb5a-2f31-b730-9b32::0895-13ad-3ba1-0952" publicationId="ebe8-544e-pubN65537" page="74" number="1" type="model">
@@ -1055,7 +1055,7 @@ While this canticle is active, each time a melee attack is made against this uni
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
               <categories>
-                <category id="f8d8-6b04-6608-e008" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+                <category id="25c3-16c0-34a5-53d7" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
               </categories>
             </selection>
           </selections>
@@ -1065,16 +1065,16 @@ While this canticle is active, each time a melee attack is made against this uni
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="d84c-1592-7ba8-241d" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="a147-612f-aede-e69b" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="2d4a-d182-4860-ba48" name="Tech-Priest" entryId="6743-7925-6ec5-6b91" primary="false"/>
-            <category id="ffef-4dd0-4650-3905" name="Tech-Priest Dominus" entryId="e4c1-ea70-18cd-6caf" primary="false"/>
-            <category id="858f-1829-b891-1da9" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
-            <category id="9dda-bfe6-0931-e5ae" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
-            <category id="395f-4330-c9bd-b3d2" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
-            <category id="899f-a848-9648-b151" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
-            <category id="b4ef-ffaf-954a-71e9" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="09b1-89b6-2144-bf11" name="Doctrina Assembler" entryId="6511-1923-6cd1-231e" primary="false"/>
+            <category id="7f74-3035-402b-f3b1" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="8c1a-c506-2775-d5ff" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="f656-4c6c-7832-28bd" name="Tech-Priest" entryId="6743-7925-6ec5-6b91" primary="false"/>
+            <category id="cf23-3a9b-5c11-3b77" name="Tech-Priest Dominus" entryId="e4c1-ea70-18cd-6caf" primary="false"/>
+            <category id="ddaf-8774-7abf-de1a" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
+            <category id="0d88-9786-d686-8d58" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="38bc-e762-b992-a4ed" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="6088-91fd-debe-6019" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="3ceb-85b7-269e-d6fa" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="0384-0eb0-ecac-9c35" name="Doctrina Assembler" entryId="6511-1923-6cd1-231e" primary="false"/>
           </categories>
         </selection>
       </selections>
@@ -1116,19 +1116,19 @@ While this canticle is active, each time a melee attack is made against this uni
         <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
       </publications>
       <categories>
-        <category id="40f8-dc8b-7280-549d" name="Uncategorised" entryId="(No Category)" primary="false"/>
-        <category id="b892-bfa2-67b7-e718" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="false"/>
-        <category id="2ede-ae4a-b5d9-16d0" name="Stratagems" entryId="c845-c72c-6afe-3fc2" primary="false"/>
-        <category id="7902-a793-c2de-11b1" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <category id="5011-a629-db98-a8ab" name="Agents of the Imperium" entryId="0f35-2c34-ba6a-8105" primary="false"/>
-        <category id="7bd0-95bd-94cd-127a" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <category id="80fa-ba60-633c-dbd6" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <category id="06de-6b5d-793c-db10" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <category id="2c79-a63a-ff41-4903" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <category id="3377-b667-8055-e698" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <category id="6b15-e4eb-219a-e948" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-        <category id="bcad-27ff-c590-e222" name="Primarch | Daemon Primarch | Supreme Commander" entryId="26b0-4bb9-73aa-d3d7" primary="false"/>
-        <category id="fb6e-0e50-364a-ce56" name="Solitaire - Boarding Patrol" entryId="7cda-87a1-fd4a-0fb4" primary="false"/>
+        <category id="49b4-671f-e9d3-b0ef" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="80d3-3fe6-8f6d-8732" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <category id="282a-1f48-636c-d8eb" name="Stratagems" entryId="c845-c72c-6afe-3fc2" primary="false"/>
+        <category id="ff96-8086-bff8-094e" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="dec7-67c8-2407-8a99" name="Agents of the Imperium" entryId="0f35-2c34-ba6a-8105" primary="false"/>
+        <category id="5f0e-95ab-883b-10dd" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="f37a-0d6b-d251-896b" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="ca54-e360-45e7-763a" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="1f69-e229-7947-3fb3" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="a398-bb03-d7bf-75f9" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="322a-b334-099d-a11c" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+        <category id="4182-f21e-682d-640f" name="Primarch | Daemon Primarch | Supreme Commander" entryId="26b0-4bb9-73aa-d3d7" primary="false"/>
+        <category id="c12c-2ac8-aa51-4c8a" name="Solitaire - Boarding Patrol" entryId="7cda-87a1-fd4a-0fb4" primary="false"/>
       </categories>
     </force>
   </forces>
