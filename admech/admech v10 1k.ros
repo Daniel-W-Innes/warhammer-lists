@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="314c-461a-b0dc-d58d" name="admech v10 1k" battleScribeVersion="2.03" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemName="Warhammer 40,000 10th Edition" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="1000.0"/>
+  </costs>
+  <costLimits>
+    <costLimit name="pts" typeId="51b2-306e-1021-d207" value="1000.0"/>
+  </costLimits>
+  <forces>
+    <force id="e645-bbb7-620d-9d7a" name="Army Roster" entryId="bb9d-299a-ed60-2d8a" catalogueId="77b9-2f66-3f9b-5cf3" catalogueRevision="10" catalogueName="Imperium - Adeptus Mechanicus">
+      <selections>
+        <selection id="b338-d984-c16a-bac5" name="Detachment" entryId="2874-c86-3152-393::c82f-1b42-946-9c9a" number="1" type="upgrade">
+          <selections>
+            <selection id="9ca7-41ce-8a20-74ef" name="Rad-cohort" entryId="2874-c86-3152-393::7aa5-4c0c-40c3-e2a" entryGroupId="2874-c86-3152-393::6972-dcc-e567-d509" number="1" type="upgrade">
+              <rules>
+                <rule id="2874-c86-3152-393::7a76-71c0-f4d0-8b2d" name="Rad bombardment" hidden="false">
+                  <description>BOMBARDMENT
+At the start of the first battle round, for each enemy unit within your opponent&apos;s deployment zone, your opponent must decide whether that unit will take cover or stand firm. If a unit takes cover, until the end of the battle round, that unit is Battle-shocked. If a unit stands firm, roll one D6 for that unit: on a 3+, that unit suffers D3 mortal wounds.
+
+
+FALLOUT
+At the start of the second, third, fourth and fifth battle rounds, roll one D6 for each enemy unit within your opponent&apos;s deployment zone. On a 3+, that unit suffers 1 mortal wound.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="0b20-3e7e-70c4-582d" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="d672-a263-5ea9-21d7" name="Show/Hide Options" entryId="3458-3cff-ef5f-a7c5::e8ef-836a-a9d1-901d" number="1" type="upgrade">
+          <selections>
+            <selection id="c2cf-2912-255b-8139" name="Legends are visible" entryId="3458-3cff-ef5f-a7c5::892f-57ca-d650-7199::9ed-cbf4-bfe5-90bf" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="06f1-163b-f53b-b8f6" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="0634-05b7-4a68-bae0" name="Unaligned Forces are visible" entryId="3458-3cff-ef5f-a7c5::985-e753-2e94-859::2973-ea51-7f8d-5403" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ee12-3ffe-24e0-703c" name="Unaligned Fortifications are visible" entryId="3458-3cff-ef5f-a7c5::4d37-22c-a45c-64f8::e916-2cf4-a49d-b8c4" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e68d-dbd6-96fe-cc99" name="Agents of the Imperium are visible" entryId="9c5b-bd47-c34c-90c0::e08b-2448-5606-fefb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="d99a-c3d6-44bc-e97e" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="39f6-b959-4693-07ce" name="Imperial Knights are visible" entryId="825c-3524-48a1-9328::e82c-6f8c-2b97-a287" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="c6d3-d9c9-931d-08ad" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="45d8-8328-d89e-7802" name="Titans are visible" entryId="d6cf-3f1f-46e1-43e2::f26b-79db-80e0-3a3b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="8fd4-4e58-cbe2-d848" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="04bb-e266-a6ac-d650" name="Battle Size" entryId="7380-3e40-6ed6-b7cc::564e-fbc6-5266-3ea4" number="1" type="upgrade">
+          <selections>
+            <selection id="d3c3-f404-92cc-ec00" name="1. Incursion (1000 Point limit)" entryId="7380-3e40-6ed6-b7cc::d62d-db22-4893-4bc0" entryGroupId="7380-3e40-6ed6-b7cc::b960-4789-a3a6-59cb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="f1a8-1e5e-a324-24f7" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="b82c-531a-a617-a4d2" name="Kataphron Breachers" entryId="2624-cc0e-10af-ae30::a46f-848-b87d-4484" number="1" type="unit">
+          <profiles>
+            <profile id="2624-cc0e-10af-ae30::c97f-7f22-6d6f-1bcc" name="Kataphron Breachers" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2624-cc0e-10af-ae30::2621-1ced-08ff-1612" name="Breaching Command" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack, re-roll a Hit roll of 1. While this unit is within 6” of one or more friendly Adeptus Mechanicus Battleline units, you can re-roll the Hit  roll instead.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2624-cc0e-10af-ae30::a69c-5871-1d48-08ca" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="ae58-6414-b49a-dee3" name="Kataphron Breacher (Heavy arc rifle &amp; hydraulic claw)" entryId="2624-cc0e-10af-ae30::283c-5c83-4ef1-2048" entryGroupId="2624-cc0e-10af-ae30::36ac-0f0b-f772-e685" number="6" type="model">
+              <profiles>
+                <profile id="2624-cc0e-10af-ae30::5aa0-9f17-6be1-4a40" name="Heavy arc rifle" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-vehicle 4+, Rapid fire 2</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2624-cc0e-10af-ae30::4b67-368f-e472-8f6a" name="Hhydraulic claw" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="290.0"/>
+          </costs>
+          <categories>
+            <category id="1690-3427-8d21-23fe" name="Breachers" entryId="411c-24d0-e41-4af" primary="false"/>
+            <category id="951f-66e0-aa47-6e93" name="Kataphron" entryId="6fdf-6180-8f3c-a07" primary="false"/>
+            <category id="b0ce-ac1e-bf94-7e21" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
+            <category id="615d-b514-c3bb-cf90" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="77fd-5929-eb40-ddf7" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="f01d-83d2-7b50-de9d" name="Ironstrider Ballistarii" entryId="7156-2132-a326-b724::7efb-de37-79c4-cccb" number="1" type="unit">
+          <rules>
+            <rule id="7156-2132-a326-b724::3b94-fd16-b110-5f28::b68a-5ded-65ac-98c" name="Deadly Demise 1" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
+              <description>Some models have &apos;Deadly Demise x&apos; listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6&quot; of that model suffers a number of mortal wounds denoted by &apos;x&apos; (if this is a random number, roll separately for each unit within 6&quot;).</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="7156-2132-a326-b724::7aaa-a10f-e7de-28f6" name="Ironstrider Ballistarii" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::73f8-f7d8-641f-90ca" name="Elevated Strider" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is eligible to shoot and declare a charge in a turn in which it Fell Back, and you can re-roll Desperate Escape tests taken for models in this unit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::0f3a-39ef-62b9-5b76" name="Broad Spectrum Data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you select this unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::5e5a-76f4-cc08-5b23" name="Ironstrider feet" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::2d86-57c5-938f-0469::8c24-fbe9-b191-175f" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="def7-0008-58a6-444f" name="Ironstrider Ballistarius(Twin cognis lascannon)" entryId="7156-2132-a326-b724::8fc1-9168-5137-2b5d" entryGroupId="7156-2132-a326-b724::d70d-05b4-8e6a-36bc" number="2" type="model">
+              <profiles>
+                <profile id="7156-2132-a326-b724::c869-7f4c-bec9-bb5c" name="Ironstrider Ballistarii (Twin cognis lascannon)" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained hits 1, Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="100.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="5f63-0fd1-bde3-4324" name="Ironstrider Ballistarii" entryId="d167-10dc-5abd-d01a" primary="false"/>
+            <category id="a952-629d-1f89-e33c" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
+            <category id="c0a6-012b-49a8-fed9" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
+            <category id="aed0-2bca-0287-6b9b" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="b472-118a-f98f-7ebb" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="f188-87a2-9de4-f46b" name="Tech-Priest Dominus" entryId="a548-ba7d-175a-e8b2::6424-ed86-9e15-3e14" number="1" type="model">
+          <rules>
+            <rule id="a548-ba7d-175a-e8b2::9e9d-d78c-46d2-1a09::b4dd-3e1f-41cb-218f" name="Leader" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
+              <description>While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed (pg 12), it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a Character model in that unit, even if that Character model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to Character models in that unit.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="a548-ba7d-175a-e8b2::09bc-dacd-32ff-a31d" name="Tech-Priest Dominus" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a548-ba7d-175a-e8b2::4fe6-68c7-06d7-e127" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+■ Corpuscarii Electro-Priests
+■ Fulgurite Electro-Priests
+■ Kataphron Breachers
+■ Kataphron Destroyers
+■ Skitarii Rangers
+■ Skitarii Vanguard</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a548-ba7d-175a-e8b2::822f-619f-808a-972d" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a548-ba7d-175a-e8b2::2d2c-3eb8-963e-c75a" name="Lord of the Machine Cult" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the Electro-Priests keyword, models in that unit have the Feel No Pain 4+ ability instead</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a548-ba7d-175a-e8b2::01b2-8ea8-4fc1-dbe7" name="Data-spike" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, you can select one enemy Vehicle unit within Engagement Range of this model’s unit and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds and, until the end of the phase, the Weapon Skill characteristic of melee weapons equipped by that enemy unit is worsened by 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a548-ba7d-175a-e8b2::ac3a-9a6b-c839-b814" name="Omnissian axe" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="dcf3-79a8-9315-1780" name="Macrostubber" entryId="a548-ba7d-175a-e8b2::e1d3-cc18-b4cf-acb8" entryGroupId="a548-ba7d-175a-e8b2::dbdc-0fcc-04cf-4ff8" number="1" type="upgrade">
+              <profiles>
+                <profile id="a548-ba7d-175a-e8b2::b263-d554-9189-e6c4" name="Macrostubber" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="cc5c-6bd8-a2a2-f988" name="Volkite blaster" entryId="a548-ba7d-175a-e8b2::1c7c-e356-69ed-fd6b" entryGroupId="a548-ba7d-175a-e8b2::00cd-ebc9-bb41-d92d" number="1" type="upgrade">
+              <profiles>
+                <profile id="a548-ba7d-175a-e8b2::2537-6387-ba31-8ad2" name="Volkite blaster" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating wounds</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="9db7-a399-aee7-a630" name="Excoriating Emanation" entryId="a548-ba7d-175a-e8b2::7c7a-e18d-61ff-d869::fc22-a187-03e4-a200" entryGroupId="a548-ba7d-175a-e8b2::7c7a-e18d-61ff-d869::65bb-2001-cac8-2761" number="1" type="upgrade">
+              <profiles>
+                <profile id="a548-ba7d-175a-e8b2::7c7a-e18d-61ff-d869::86d5-7423-8428-d29b" name="Excoriating Emanation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer is leading a unit, models in that unit have the Stealth ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25.0"/>
+              </costs>
+            </selection>
+            <selection id="117f-5f9c-d3db-96e3" name="Warlord" entryId="a548-ba7d-175a-e8b2::eba4-84e4-d4ed-d6cc::0580-79ca-da98-77c3" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="88d6-05df-f115-2d48" name="Warlord" entryId="5c0e-4c31-d51b-e470" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="75.0"/>
+          </costs>
+          <categories>
+            <category id="d578-2916-5d11-188b" name="Dominus" entryId="c39d-5908-6bc1-8212" primary="false"/>
+            <category id="f4d3-4390-1b4c-2ec5" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="b25a-4bfc-ff85-a694" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="a15b-268a-01cc-028f" name="Tech-Priest" entryId="59a9-b5cc-7c11-aaad" primary="false"/>
+            <category id="4747-a7ea-c60f-9cbf" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
+            <category id="7b29-ffb5-da2a-dd2c" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="7f14-e607-34af-adee" name="Skitarii Marshal" entryId="569d-5147-44f-b8a5::b897-e4c6-fcb6-6538" number="1" type="model">
+          <rules>
+            <rule id="569d-5147-44f-b8a5::25ba-ea35-bb5d-5e66::b4dd-3e1f-41cb-218f" name="Leader" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
+              <description>While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed (pg 12), it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack sucessfully wounds an Attached unit, that attack cannot be allocated to a Character model in that unit, even if that Character model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to Character models in that unit.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="569d-5147-44f-b8a5::d3f8-1d89-a1d0-085a" name="Skitarii Marshal" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="569d-5147-44f-b8a5::ec47-d3a6-f1f9-4d68" name="Archeotech Pistol" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating wounds, Pistol</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="569d-5147-44f-b8a5::e2da-9e17-10df-6d61" name="Control stave" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+            <profile id="569d-5147-44f-b8a5::b89e-0cbb-251a-793c" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+■ Skitarii Rangers
+■ Skitarii Vanguard</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="569d-5147-44f-b8a5::46d1-a9f3-efe5-b4a9" name="Control Edict" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="569d-5147-44f-b8a5::3afd-1276-beb2-adf7" name="Servo-skull Uplink" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, you can select this model’s unit for a Stratagem even if that Stratagem has already been used on another unit from your army this phase</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="569d-5147-44f-b8a5::02cd-c8dd-a26b-15ef" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="35.0"/>
+          </costs>
+          <categories>
+            <category id="8732-7050-c4a3-2352" name="Marshal" entryId="58c1-8e13-6d05-ee24" primary="false"/>
+            <category id="d8da-ac93-3b55-376b" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="1195-7657-cbeb-e118" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="1459-0b12-1d59-46f3" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="db53-daff-89d3-96d4" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="206c-11ba-52d2-6b65" name="Skitarii Rangers" entryId="cb4c-b9a7-a9fd-b2de::de59-f65c-181a-8509" number="1" type="unit">
+          <rules>
+            <rule id="cb4c-b9a7-a9fd-b2de::0622-f99b-ec7a-45b5::ada6-bac1-ffe0-d6f7" name="Scouts 6&quot;" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
+              <description>Some units have ‘Scouts x’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x&quot; as if it were your Movement phase – as can any DEDICATED TRANSPORT model such a unit starts the battle embarked within (provided only models with this ability are embarked within that DEDICATED TRANSPORT model). A unit that moves using this ability must end that move more than 9\&quot; horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="cb4c-b9a7-a9fd-b2de::013b-d05a-1fbc-40a5" name="Skitarii Rangers" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cb4c-b9a7-a9fd-b2de::9451-c52d-c35f-cc05" name="Scouts" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">9&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cb4c-b9a7-a9fd-b2de::3d74-3888-b3ba-d044" name="Objective Scouted" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cb4c-b9a7-a9fd-b2de::58a7-afba-9aed-e139" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cb4c-b9a7-a9fd-b2de::90a-4e07-da10-357b" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="bea4-1f41-e59e-7d26" name="Skitarii Ranger Alpha" entryId="cb4c-b9a7-a9fd-b2de::e4b2-478b-a217-f999" number="1" type="model">
+              <selections>
+                <selection id="f9c9-1d12-6560-8ff3" name="Close combat weapon" entryId="cb4c-b9a7-a9fd-b2de::1e18-84f4-98b9-ea4d" entryGroupId="cb4c-b9a7-a9fd-b2de::02ce-0094-32e5-1eb8" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="cb4c-b9a7-a9fd-b2de::8565-a2d3-7a9d-0bf5" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="03b5-b4e9-b413-76f1" name="Galvanic rifle" entryId="cb4c-b9a7-a9fd-b2de::90fb-6049-048b-b4d2" entryGroupId="cb4c-b9a7-a9fd-b2de::c6a2-e9ac-9e52-a8b2" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="cb4c-b9a7-a9fd-b2de::641d-a705-abc0-b4ff" name="Galvanic rifle" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="120c-db1a-021c-0880" name="Skitarii Ranger (Galvanic rifle)" entryId="cb4c-b9a7-a9fd-b2de::b27c-7f37-083e-9234" entryGroupId="cb4c-b9a7-a9fd-b2de::24a0-5541-79b2-b1ff" number="6" type="model">
+              <profiles>
+                <profile id="cb4c-b9a7-a9fd-b2de::1964-b987-5c00-eb22" name="Galvanic rifle" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e638-e294-5320-66c3" name="Skitarii Ranger (Arc rifle)" entryId="cb4c-b9a7-a9fd-b2de::b93c-a0a7-1c46-66c4" entryGroupId="cb4c-b9a7-a9fd-b2de::24a0-5541-79b2-b1ff" number="1" type="model">
+              <profiles>
+                <profile id="cb4c-b9a7-a9fd-b2de::bb38-402a-56ca-c873" name="Arc rifle" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-vehicle 4+, Devastating wounds, Rapid fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="04fe-f40e-b11b-e571" name="Skitarii Ranger (Plasma caliver)" entryId="cb4c-b9a7-a9fd-b2de::b472-94bc-9482-44b6" entryGroupId="cb4c-b9a7-a9fd-b2de::24a0-5541-79b2-b1ff" number="1" type="model">
+              <profiles>
+                <profile id="cb4c-b9a7-a9fd-b2de::2d01-c7df-4334-986f" name="Plasma caliver - standard" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                  </characteristics>
+                </profile>
+                <profile id="cb4c-b9a7-a9fd-b2de::2c9b-32bf-9f50-5649" name="Plasma caliver -  - supercharge" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="cd6f-3edc-60c2-778c" name="Skitarii Ranger (Transuranic arquebus)" entryId="cb4c-b9a7-a9fd-b2de::22b3-9c84-0982-8627" entryGroupId="cb4c-b9a7-a9fd-b2de::24a0-5541-79b2-b1ff" number="1" type="model">
+              <profiles>
+                <profile id="cb4c-b9a7-a9fd-b2de::c47c-4999-a925-ee13" name="Transuranic arquebus" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f203-fbe1-75ba-18c4" name="Omnispex" entryId="cb4c-b9a7-a9fd-b2de::c217-320e-8c53-8485" entryGroupId="cb4c-b9a7-a9fd-b2de::d47c-f815-2ad4-4e3e" number="1" type="upgrade">
+              <profiles>
+                <profile id="cb4c-b9a7-a9fd-b2de::fcf0-ae12-081a-c764" name="Omnispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="90.0"/>
+          </costs>
+          <categories>
+            <category id="c7ad-e64b-ca82-04e4" name="Rangers" entryId="bdec-fa84-45c0-24dc" primary="false"/>
+            <category id="02eb-c0b5-8187-d0ae" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="e933-a114-a9dc-d6ed" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="3d03-6594-f804-6da8" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="baec-19b4-77c4-4a1b" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="1d99-35d6-bb84-ed75" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="9f28-8491-5d7c-4e97" name="Skitarii Vanguard" entryId="8c0d-1834-34a2-59aa::ba33-c21-bddc-ab0" number="1" type="unit">
+          <profiles>
+            <profile id="8c0d-1834-34a2-59aa::6427-af36-d3d4-c35e" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8c0d-1834-34a2-59aa::7df2-9dbf-5bcb-3e9a" name="Skitarii Vanguard" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8c0d-1834-34a2-59aa::a266-2033-d72e-eddd" name="Rad-saturation (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit (excluding Vehicle units) is within 3&quot; of this unit, subtract 1 from the Objective Control characteristic of models in that unit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8c0d-1834-34a2-59aa::9f44-24d9-43d1-4a6a" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="0a17-7555-85ba-5a13" name="Skitarii Vanguard Alpha" entryId="8c0d-1834-34a2-59aa::757f-d62f-7983-08e3" number="1" type="model">
+              <selections>
+                <selection id="4b4f-9af1-33d0-23a0" name="Alpha combat weapon" entryId="8c0d-1834-34a2-59aa::8fc3-c3ea-8536-826e" entryGroupId="8c0d-1834-34a2-59aa::2104-4ad5-7ab2-a1c8" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="8c0d-1834-34a2-59aa::2cc6-ab8c-3a1f-9136" name="Alpha combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="f196-29ce-817f-bc11" name="Radium carbine" entryId="8c0d-1834-34a2-59aa::f5c3-756b-f5d1-6e82" entryGroupId="8c0d-1834-34a2-59aa::8947-7baa-be7b-08a3" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="8c0d-1834-34a2-59aa::c990-c32-898f-760f" name="Radium carbine" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 4+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b790-db7e-b7a3-9aae" name="Skitarii Vanguard (Radium carbine)" entryId="8c0d-1834-34a2-59aa::e643-b59e-8ca3-2f8c" entryGroupId="8c0d-1834-34a2-59aa::c00c-540d-818e-9f44" number="9" type="model">
+              <profiles>
+                <profile id="8c0d-1834-34a2-59aa::cdb9-7baf-8017-c4c0" name="Radium carbine" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5fb4-1893-6c6f-09d9" name="Omnispex" entryId="8c0d-1834-34a2-59aa::fc8b-726e-1749-3e91" entryGroupId="8c0d-1834-34a2-59aa::8f1b-3c74-6fac-9f55" number="1" type="upgrade">
+              <profiles>
+                <profile id="8c0d-1834-34a2-59aa::b4f8-63cd-30c1-a026" name="Omnispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="80.0"/>
+          </costs>
+          <categories>
+            <category id="8bd0-8c6a-9e82-42b6" name="Vanguard" entryId="44d2-dd77-4da9-7f22" primary="false"/>
+            <category id="015c-1441-5d79-6d36" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="7d49-8c97-e631-40fb" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="8200-4c86-0fdb-fc06" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="da39-86c0-a05d-de95" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="2f92-61d7-d7ec-7849" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="99a6-ff52-8768-96fe" name="Onager Dunecrawler" entryId="8134-e206-584a-127b::ea05-4db7-9ee6-7a87" number="1" type="model">
+          <rules>
+            <rule id="8134-e206-584a-127b::e457-6b2b-7f13-5311::b68a-5ded-65ac-98c" name="Deadly Demise D3" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
+              <description>Some models have &apos;Deadly Demise x&apos; listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6&quot; of that model suffers a number of mortal wounds denoted by &apos;x&apos; (if this is a random number, roll separately for each unit within 6&quot;).</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="8134-e206-584a-127b::737a-210c-5f9b-f1f0" name="Onager Dunecrawler" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8134-e206-584a-127b::cc62-f70a-74d5-53a3" name="Dunecrawler" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be moved over terrain features that are 4&quot; or less in height as if they were not there.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8134-e206-584a-127b::80b6-a242-9b3f-456a" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8134-e206-584a-127b::021a-c246-5697-b311" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this mdel has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8134-e206-584a-127b::8551-cd54-e484-0fd4" name="Dunecrawler legs" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="eb44-1c6e-1070-5893" name="Cognis heavy stubber" entryId="8134-e206-584a-127b::1aed-a297-70d2-78b4" number="1" type="upgrade">
+              <profiles>
+                <profile id="8134-e206-584a-127b::e137-3ea7-ff5b-b1b9" name="cognis heavy stubber" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid fire 3, Sustained hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ae81-998a-9ef0-39cc" name="Neutron laser &amp; Cognis heavy stubber" entryId="8134-e206-584a-127b::2887-6836-5f5f-20eb" entryGroupId="8134-e206-584a-127b::9924-abf6-bd0b-a534" number="1" type="upgrade">
+              <profiles>
+                <profile id="8134-e206-584a-127b::3837-4469-0639-ade7" name="Cognis heavy stubber" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid fire 3, Sustained hits 1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8134-e206-584a-127b::09c6-f02c-1828-696d" name="Neutron laser" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ac4d-8daa-c6b7-014e" name="Smoke Launcher" entryId="8134-e206-584a-127b::51c5-8c13-9cff-735e" entryGroupId="8134-e206-584a-127b::3dc7-2596-e73c-7219" number="1" type="upgrade">
+              <profiles>
+                <profile id="8134-e206-584a-127b::fe7f-cca2-21e1-0f7a" name="Smoke Launcher" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the Smoke keyword.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="104e-9fc2-c926-7503" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="140.0"/>
+          </costs>
+          <categories>
+            <category id="c013-323a-31d1-772f" name="Onager Dunecrawler" entryId="c299-2d35-3b58-a63e" primary="false"/>
+            <category id="076f-2fd3-54ce-f16b" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="05ee-b55b-9188-cfe3" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
+            <category id="6687-8a3c-05fd-3688" name="Walker" entryId="6dda-e157-334d-e93a" primary="false"/>
+            <category id="c506-f3d5-6735-4448" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="4ffe-3cf0-b627-1196" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="e268-0d3c-7d45-d941" name="Pteraxii Skystalkers" entryId="9bfc-c4ed-8483-113e::b31e-5003-5b63-a305" number="1" type="unit">
+          <rules>
+            <rule id="9bfc-c4ed-8483-113e::d333-5542-2b51-d069::7cb5-dd6b-dd87-ad3b" name="Deep Strike" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
+              <description>During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy models.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="9bfc-c4ed-8483-113e::25e8-04ff-16b8-060e" name="Pteraxii Skystalkers" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9bfc-c4ed-8483-113e::b4a6-337b-294d-a4d3" name="Ride the Thermals" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can do one of the following: 
+■ Make a Normal move of up to 6&quot;.
+■ Make a Normal move of up to 12&quot;, provided every model in this unit ends that move wholly within 6&quot; of one or more friendly Adeptus Mechanicus Battleline units.
+
+In either case, if it does, until the end of the turn, this unit is not eligible to declare a charge.�</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9bfc-c4ed-8483-113e::188d-141a-b5d9-1f33" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6554-9513-945f-9b52" name="Pteraxii Skystalker Alpha" entryId="9bfc-c4ed-8483-113e::dbb5-dfb3-c0e4-5024" number="1" type="model">
+              <profiles>
+                <profile id="9bfc-c4ed-8483-113e::edb5-8e38-2d69-a5d4" name="Pteraxii Skystalker Alpha" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9bfc-c4ed-8483-113e::e3b5-18a6-e86f-d2e0" name="Flechette blaster" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9bfc-c4ed-8483-113e::fdc3-b26d-80db-eb6b" name="Taser goard" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained hits 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8943-338e-e11a-cac2" name="Pteraxii Skystalkers" entryId="9bfc-c4ed-8483-113e::7865-a605-b723-6d77" number="4" type="model">
+              <profiles>
+                <profile id="9bfc-c4ed-8483-113e::fda8-5a75-db7d-f776" name="Flechette carbine" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9bfc-c4ed-8483-113e::60c0-8b40-37cf-1293" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="65.0"/>
+          </costs>
+          <categories>
+            <category id="ed76-b247-6db4-6951" name="Pteraxii Skystalkers" entryId="f181-49f9-7de7-4e6" primary="false"/>
+            <category id="43a5-754f-eed9-b38a" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="da37-b19e-13f9-6145" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="1eed-c1d5-0fde-d3e7" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
+            <category id="f151-546f-c2b3-3282" name="Fly" entryId="c619-2086-bbcf-69c9" primary="false"/>
+            <category id="a793-fa7a-0380-1f03" name="Jump Pack" entryId="dda2-bb0a-215e-ad9c" primary="false"/>
+            <category id="6a47-ef50-991e-8593" name="Grenades" entryId="5a61-81ac-eb7c-a87e" primary="false"/>
+            <category id="a838-b3f7-af53-5592" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="486e-9b9e-c263-3985" name="Ironstrider Ballistarii" entryId="7156-2132-a326-b724::7efb-de37-79c4-cccb" number="1" type="unit">
+          <rules>
+            <rule id="7156-2132-a326-b724::3b94-fd16-b110-5f28::b68a-5ded-65ac-98c" name="Deadly Demise 1" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
+              <description>Some models have &apos;Deadly Demise x&apos; listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6&quot; of that model suffers a number of mortal wounds denoted by &apos;x&apos; (if this is a random number, roll separately for each unit within 6&quot;).</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="7156-2132-a326-b724::7aaa-a10f-e7de-28f6" name="Ironstrider Ballistarii" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::73f8-f7d8-641f-90ca" name="Elevated Strider" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is eligible to shoot and declare a charge in a turn in which it Fell Back, and you can re-roll Desperate Escape tests taken for models in this unit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::0f3a-39ef-62b9-5b76" name="Broad Spectrum Data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you select this unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::5e5a-76f4-cc08-5b23" name="Ironstrider feet" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7156-2132-a326-b724::2d86-57c5-938f-0469::8c24-fbe9-b191-175f" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="0045-6ea9-bd5d-5108" name="Ironstrider Ballistarius(Twin cognis lascannon)" entryId="7156-2132-a326-b724::8fc1-9168-5137-2b5d" entryGroupId="7156-2132-a326-b724::d70d-05b4-8e6a-36bc" number="2" type="model">
+              <profiles>
+                <profile id="7156-2132-a326-b724::c869-7f4c-bec9-bb5c" name="Ironstrider Ballistarii (Twin cognis lascannon)" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained hits 1, Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="100.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="0eda-0881-fd1c-5da5" name="Ironstrider Ballistarii" entryId="d167-10dc-5abd-d01a" primary="false"/>
+            <category id="697f-444c-e54f-8fbb" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
+            <category id="8168-5154-03ee-eeb6" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
+            <category id="3dab-092a-962c-6a25" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="f368-3232-4a21-0d09" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules"/>
+        <publication id="8db3-575d-91b-47f8" name="Github"/>
+      </publications>
+      <categories>
+        <category id="ce5c-6dc3-110a-433b" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="4b74-b513-30fb-de34" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="false"/>
+        <category id="00ca-3d4d-2453-b9bd" name="Epic Hero" entryId="4f3a-f0f7-6647-348d" primary="false"/>
+        <category id="674d-c1c9-6073-c960" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <category id="f305-3496-3e4d-16ab" name="Battleline" entryId="e338-111e-d0c6-b687" primary="false"/>
+        <category id="7ae6-8730-e64a-afbc" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+        <category id="8a59-84bb-c618-5a59" name="Swarm" entryId="b00b-5bae-444f-964e" primary="false"/>
+        <category id="87f1-c876-9a57-95fb" name="Mounted" entryId="14a0-40c9-2748-ae6e" primary="false"/>
+        <category id="498f-0881-15ce-61b6" name="Beast" entryId="4c3e-9310-a516-3590" primary="false"/>
+        <category id="2707-c4ee-f8d5-5656" name="Monster" entryId="9693-cf84-fe69-37a9" primary="false"/>
+        <category id="f0d0-eaf2-bf21-b94f" name="Vehicle" entryId="dbd4-63-af05-998" primary="false"/>
+        <category id="2352-c6d5-7d9f-46b4" name="Drone" entryId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <category id="f86c-3add-c660-1fa3" name="Dedicated Transport" entryId="ba07-411c-2832-1f79" primary="false"/>
+        <category id="8301-4811-6b8d-e35f" name="Fortification" entryId="19d7-9c74-2140-5851" primary="false"/>
+        <category id="2b1f-95ed-5491-d444" name="Unit" entryId="1160-70ae-a862-b1a8" primary="false"/>
+        <category id="bfa2-81c6-b014-a2ef" name="Allied Units" entryId="887b-ab87-92a2-20f5" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
