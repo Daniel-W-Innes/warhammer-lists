@@ -31,56 +31,15 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
           </costs>
           <categories>
-            <category id="0b20-3e7e-70c4-582d" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+            <category id="8b89-62b5-deae-3490" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
           </categories>
         </selection>
         <selection id="d672-a263-5ea9-21d7" name="Show/Hide Options" entryId="3458-3cff-ef5f-a7c5::e8ef-836a-a9d1-901d" number="1" type="upgrade">
-          <selections>
-            <selection id="c2cf-2912-255b-8139" name="Legends are visible" entryId="3458-3cff-ef5f-a7c5::892f-57ca-d650-7199::9ed-cbf4-bfe5-90bf" number="1" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
-              </costs>
-              <categories>
-                <category id="06f1-163b-f53b-b8f6" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
-              </categories>
-            </selection>
-            <selection id="0634-05b7-4a68-bae0" name="Unaligned Forces are visible" entryId="3458-3cff-ef5f-a7c5::985-e753-2e94-859::2973-ea51-7f8d-5403" number="1" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="ee12-3ffe-24e0-703c" name="Unaligned Fortifications are visible" entryId="3458-3cff-ef5f-a7c5::4d37-22c-a45c-64f8::e916-2cf4-a49d-b8c4" number="1" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="e68d-dbd6-96fe-cc99" name="Agents of the Imperium are visible" entryId="9c5b-bd47-c34c-90c0::e08b-2448-5606-fefb" number="1" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
-              </costs>
-              <categories>
-                <category id="d99a-c3d6-44bc-e97e" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
-              </categories>
-            </selection>
-            <selection id="39f6-b959-4693-07ce" name="Imperial Knights are visible" entryId="825c-3524-48a1-9328::e82c-6f8c-2b97-a287" number="1" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
-              </costs>
-              <categories>
-                <category id="c6d3-d9c9-931d-08ad" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
-              </categories>
-            </selection>
-            <selection id="45d8-8328-d89e-7802" name="Titans are visible" entryId="d6cf-3f1f-46e1-43e2::f26b-79db-80e0-3a3b" number="1" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
-              </costs>
-            </selection>
-          </selections>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
           </costs>
           <categories>
-            <category id="8fd4-4e58-cbe2-d848" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+            <category id="302d-d806-bba5-58c9" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
           </categories>
         </selection>
         <selection id="04bb-e266-a6ac-d650" name="Battle Size" entryId="7380-3e40-6ed6-b7cc::564e-fbc6-5266-3ea4" number="1" type="upgrade">
@@ -95,7 +54,7 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
           </costs>
           <categories>
-            <category id="f1a8-1e5e-a324-24f7" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
+            <category id="a87a-a03b-d2b3-b39f" name="Configuration" entryId="4ac9-fd30-1e3d-b249" primary="true"/>
           </categories>
         </selection>
         <selection id="b82c-531a-a617-a4d2" name="Kataphron Breachers" entryId="2624-cc0e-10af-ae30::a46f-848-b87d-4484" number="1" type="unit">
@@ -156,11 +115,11 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="290.0"/>
           </costs>
           <categories>
-            <category id="1690-3427-8d21-23fe" name="Breachers" entryId="411c-24d0-e41-4af" primary="false"/>
-            <category id="951f-66e0-aa47-6e93" name="Kataphron" entryId="6fdf-6180-8f3c-a07" primary="false"/>
-            <category id="b0ce-ac1e-bf94-7e21" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
-            <category id="615d-b514-c3bb-cf90" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
-            <category id="77fd-5929-eb40-ddf7" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="1da9-217e-0e74-e032" name="Breachers" entryId="411c-24d0-e41-4af" primary="false"/>
+            <category id="c4e5-2387-ef52-dc1a" name="Kataphron" entryId="6fdf-6180-8f3c-a07" primary="false"/>
+            <category id="aa53-1070-d406-93c7" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
+            <category id="0909-8acc-4319-dbb8" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="07d1-ad7f-da2d-cb90" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
           </categories>
         </selection>
         <selection id="f01d-83d2-7b50-de9d" name="Ironstrider Ballistarii" entryId="7156-2132-a326-b724::7efb-de37-79c4-cccb" number="1" type="unit">
@@ -231,11 +190,11 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
           </costs>
           <categories>
-            <category id="5f63-0fd1-bde3-4324" name="Ironstrider Ballistarii" entryId="d167-10dc-5abd-d01a" primary="false"/>
-            <category id="a952-629d-1f89-e33c" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
-            <category id="c0a6-012b-49a8-fed9" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
-            <category id="aed0-2bca-0287-6b9b" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
-            <category id="b472-118a-f98f-7ebb" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="1bf3-5c99-1069-7c52" name="Ironstrider Ballistarii" entryId="d167-10dc-5abd-d01a" primary="false"/>
+            <category id="e14a-70fa-8933-323a" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
+            <category id="6c74-0a5d-14bf-6402" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
+            <category id="40a6-cb64-668f-3d6a" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="a147-2b51-0bcd-4d80" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
           </categories>
         </selection>
         <selection id="f188-87a2-9de4-f46b" name="Tech-Priest Dominus" entryId="a548-ba7d-175a-e8b2::6424-ed86-9e15-3e14" number="1" type="model">
@@ -355,12 +314,12 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="75.0"/>
           </costs>
           <categories>
-            <category id="d578-2916-5d11-188b" name="Dominus" entryId="c39d-5908-6bc1-8212" primary="false"/>
-            <category id="f4d3-4390-1b4c-2ec5" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
-            <category id="b25a-4bfc-ff85-a694" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
-            <category id="a15b-268a-01cc-028f" name="Tech-Priest" entryId="59a9-b5cc-7c11-aaad" primary="false"/>
-            <category id="4747-a7ea-c60f-9cbf" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
-            <category id="7b29-ffb5-da2a-dd2c" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="dfea-bf69-e5f5-32d8" name="Dominus" entryId="c39d-5908-6bc1-8212" primary="false"/>
+            <category id="2c0e-653c-d66a-b4f4" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="e2f4-74ca-e705-c28a" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="3614-a0d4-ef4c-f49e" name="Tech-Priest" entryId="59a9-b5cc-7c11-aaad" primary="false"/>
+            <category id="7522-59fa-ef3e-36bb" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
+            <category id="50f1-797d-5cc9-090f" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
           </categories>
         </selection>
         <selection id="7f14-e607-34af-adee" name="Skitarii Marshal" entryId="569d-5147-44f-b8a5::b897-e4c6-fcb6-6538" number="1" type="model">
@@ -429,11 +388,11 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="35.0"/>
           </costs>
           <categories>
-            <category id="8732-7050-c4a3-2352" name="Marshal" entryId="58c1-8e13-6d05-ee24" primary="false"/>
-            <category id="d8da-ac93-3b55-376b" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
-            <category id="1195-7657-cbeb-e118" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
-            <category id="1459-0b12-1d59-46f3" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
-            <category id="db53-daff-89d3-96d4" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
+            <category id="edb6-a079-c90c-fa49" name="Marshal" entryId="58c1-8e13-6d05-ee24" primary="false"/>
+            <category id="b089-32a4-3c1c-b8ed" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="ecf7-9e1a-b20d-bead" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="3700-df01-57db-a85e" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="5b59-e3d4-abe0-dae1" name="Character" entryId="9cfd-1c32-585f-7d5c" primary="true"/>
           </categories>
         </selection>
         <selection id="206c-11ba-52d2-6b65" name="Skitarii Rangers" entryId="cb4c-b9a7-a9fd-b2de::de59-f65c-181a-8509" number="1" type="unit">
@@ -624,12 +583,12 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="90.0"/>
           </costs>
           <categories>
-            <category id="c7ad-e64b-ca82-04e4" name="Rangers" entryId="bdec-fa84-45c0-24dc" primary="false"/>
-            <category id="02eb-c0b5-8187-d0ae" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
-            <category id="e933-a114-a9dc-d6ed" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
-            <category id="3d03-6594-f804-6da8" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
-            <category id="baec-19b4-77c4-4a1b" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
-            <category id="1d99-35d6-bb84-ed75" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
+            <category id="46a0-d078-f8ad-f4a1" name="Rangers" entryId="bdec-fa84-45c0-24dc" primary="false"/>
+            <category id="5343-a8c1-d428-94b8" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="20cc-d962-4463-5081" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="c52a-7e63-e182-e680" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="946b-627b-0d04-3e89" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="151d-216c-04aa-fafd" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
           </categories>
         </selection>
         <selection id="9f28-8491-5d7c-4e97" name="Skitarii Vanguard" entryId="8c0d-1834-34a2-59aa::ba33-c21-bddc-ab0" number="1" type="unit">
@@ -745,12 +704,12 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="80.0"/>
           </costs>
           <categories>
-            <category id="8bd0-8c6a-9e82-42b6" name="Vanguard" entryId="44d2-dd77-4da9-7f22" primary="false"/>
-            <category id="015c-1441-5d79-6d36" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
-            <category id="7d49-8c97-e631-40fb" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
-            <category id="8200-4c86-0fdb-fc06" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
-            <category id="da39-86c0-a05d-de95" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
-            <category id="2f92-61d7-d7ec-7849" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
+            <category id="e17e-dac0-e672-f23d" name="Vanguard" entryId="44d2-dd77-4da9-7f22" primary="false"/>
+            <category id="07fe-a081-7609-0a1a" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="02c8-90ec-b6b2-95bd" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="15fb-00c6-e961-78ca" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="false"/>
+            <category id="01a5-9874-ba05-2d8a" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="9f0d-fe31-fa55-1f0a" name="Battleline" entryId="e338-111e-d0c6-b687" primary="true"/>
           </categories>
         </selection>
         <selection id="99a6-ff52-8768-96fe" name="Onager Dunecrawler" entryId="8134-e206-584a-127b::ea05-4db7-9ee6-7a87" number="1" type="model">
@@ -865,12 +824,12 @@ At the start of the second, third, fourth and fifth battle rounds, roll one D6 
             <cost name="pts" typeId="51b2-306e-1021-d207" value="140.0"/>
           </costs>
           <categories>
-            <category id="c013-323a-31d1-772f" name="Onager Dunecrawler" entryId="c299-2d35-3b58-a63e" primary="false"/>
-            <category id="076f-2fd3-54ce-f16b" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
-            <category id="05ee-b55b-9188-cfe3" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
-            <category id="6687-8a3c-05fd-3688" name="Walker" entryId="6dda-e157-334d-e93a" primary="false"/>
-            <category id="c506-f3d5-6735-4448" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
-            <category id="4ffe-3cf0-b627-1196" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="9394-f621-2157-1858" name="Onager Dunecrawler" entryId="c299-2d35-3b58-a63e" primary="false"/>
+            <category id="8d86-83e6-6606-5ef8" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="0402-f2ab-06b5-352b" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
+            <category id="a9fe-ff18-8f05-486b" name="Walker" entryId="6dda-e157-334d-e93a" primary="false"/>
+            <category id="5851-1bf6-70c5-0e28" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="4322-bd3f-5a43-5c89" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
           </categories>
         </selection>
         <selection id="e268-0d3c-7d45-d941" name="Pteraxii Skystalkers" entryId="9bfc-c4ed-8483-113e::b31e-5003-5b63-a305" number="1" type="unit">
@@ -979,14 +938,14 @@ In either case, if it does, until the end of the turn, this unit is not eligible
             <cost name="pts" typeId="51b2-306e-1021-d207" value="65.0"/>
           </costs>
           <categories>
-            <category id="ed76-b247-6db4-6951" name="Pteraxii Skystalkers" entryId="f181-49f9-7de7-4e6" primary="false"/>
-            <category id="43a5-754f-eed9-b38a" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
-            <category id="da37-b19e-13f9-6145" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
-            <category id="1eed-c1d5-0fde-d3e7" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
-            <category id="f151-546f-c2b3-3282" name="Fly" entryId="c619-2086-bbcf-69c9" primary="false"/>
-            <category id="a793-fa7a-0380-1f03" name="Jump Pack" entryId="dda2-bb0a-215e-ad9c" primary="false"/>
-            <category id="6a47-ef50-991e-8593" name="Grenades" entryId="5a61-81ac-eb7c-a87e" primary="false"/>
-            <category id="a838-b3f7-af53-5592" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="af46-2fdb-8381-02c8" name="Pteraxii Skystalkers" entryId="f181-49f9-7de7-4e6" primary="false"/>
+            <category id="d32e-1c96-ecd1-a53d" name="Imperium" entryId="aff3-d6a3-2a95-9dc" primary="false"/>
+            <category id="1839-e592-c9aa-506f" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="fc29-742d-3391-bc92" name="Infantry" entryId="cf47-a0d7-7207-29dc" primary="true"/>
+            <category id="81c3-4d27-b7a5-0488" name="Fly" entryId="c619-2086-bbcf-69c9" primary="false"/>
+            <category id="8b1f-3f0a-672c-104e" name="Jump Pack" entryId="dda2-bb0a-215e-ad9c" primary="false"/>
+            <category id="eaca-469e-25d4-57a1" name="Grenades" entryId="5a61-81ac-eb7c-a87e" primary="false"/>
+            <category id="31e1-4424-efea-265e" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
           </categories>
         </selection>
         <selection id="486e-9b9e-c263-3985" name="Ironstrider Ballistarii" entryId="7156-2132-a326-b724::7efb-de37-79c4-cccb" number="1" type="unit">
@@ -1057,11 +1016,11 @@ In either case, if it does, until the end of the turn, this unit is not eligible
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0.0"/>
           </costs>
           <categories>
-            <category id="0eda-0881-fd1c-5da5" name="Ironstrider Ballistarii" entryId="d167-10dc-5abd-d01a" primary="false"/>
-            <category id="697f-444c-e54f-8fbb" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
-            <category id="8168-5154-03ee-eeb6" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
-            <category id="3dab-092a-962c-6a25" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
-            <category id="f368-3232-4a21-0d09" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
+            <category id="b411-64a0-8586-ad37" name="Ironstrider Ballistarii" entryId="d167-10dc-5abd-d01a" primary="false"/>
+            <category id="4e29-2b30-2643-e6de" name="Vehicle" entryId="dbd4-63-af05-998" primary="true"/>
+            <category id="cbc7-68da-010f-7825" name="Smoke" entryId="6df-937-16bc-8c1a" primary="false"/>
+            <category id="6417-2c89-6e4a-f8dc" name="Skitarii" entryId="2a4e-9018-d675-74f1" primary="false"/>
+            <category id="6fa8-6a6d-8cb8-8fe8" name="Faction: Adeptus Mechanicus" entryId="5418-f86b-6e76-c5a" primary="false"/>
           </categories>
         </selection>
       </selections>
